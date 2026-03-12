@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NJAWAMU Hardware - Your one-stop shop for all building materials, tools, and hardware supplies in Banana Karuri area, Kiambu. Quality products at competitive prices.">
+    <meta name="keywords"
+        content="hardware Kiambu, building materials Banana, NJAWAMU Hardware, construction tools, Kiambu hardware stores">
+    <meta name="author" content="NJAWAMU Hardware">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://njawamuhardware.com/">
+    <meta property="og:title" content="Quality Hardware & Building Materials | NJAWAMU Hardware">
+    <meta property="og:description"
+        content="Shop high-quality hardware products, tools, and building materials at NJAWAMU Hardware. Banana Karuri, Kiambu.">
+    <meta property="og:image" content="assets/images/products/isolated/hero_bumper.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://njawamuhardware.com/">
+    <meta property="twitter:title" content="Quality Hardware & Building Materials | NJAWAMU Hardware">
+    <meta property="twitter:description"
+        content="Shop high-quality hardware products, tools, and building materials at NJAWAMU Hardware. Banana Karuri, Kiambu.">
+    <meta property="twitter:image" content="assets/images/products/isolated/hero_bumper.webp">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/components/contact-bar.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/top-cat-banner.css">
+    <link rel="stylesheet" href="styles/components/categories-menu.css">
+    <link rel="stylesheet" href="styles/components/promo-banner.css">
+    <link rel="stylesheet" href="styles/components/dark-sections.css">
+    <link rel="stylesheet" href="styles/components/quick-categories.css">
+    <link rel="stylesheet" href="styles/components/hot-deals.css">
+    <link rel="stylesheet" href="styles/components/companies.css">
+    <link rel="stylesheet" href="styles/components/featured-products.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- Proactive Service Worker Cleanup -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
+    <!-- Service Worker Disabled Temporarily -->
+    <!--
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker Registered'))
+                    .catch(err => console.log('Service Worker Error:', err));
+            });
+        }
+    </script>
+    -->
+</head>
+
+<body>
+
+    <!-- ===== NEW HEADER TOP BAR ===== -->
+    <div class="header-top-bar">
+
+        <!-- Logo Column -->
+        <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
+            <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
+        </a>
+
+        <!-- Animated Banner Column -->
+        <div class="header-banner-col" id="headerBanner">
+            <div id="headerBannerInner">
+                <div class="banner-text-group">
+                    <span class="banner-prefix">Quality</span>
+                    <span class="banner-part-name" id="bannerPartName">BUILDING MATERIALS</span>
+                </div>
+
+                <div class="banner-img-wrap">
+                    <img id="bannerPartImg" src="assets/images/featured/placeholder.png" alt="Hardware Supplies"
+                        loading="eager">
+                </div>
+
+                <span class="banner-specials-tag">March Specials</span>
+            </div>
+        </div>
+
+        <div class="header-contacts-col">
+            <a href="tel:+254726822382" class="hdr-contact-btn phone" title="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="https://wa.me/254726822382" class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank"
+                rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Hero Section (contains navbar overlay) -->
+    <section class="hero-section" id="hero">
+
+        <!-- Transparent Category Navbar (overlays hero) -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-content-v2">
+                    <!-- Categories Button (mega-menu hover stays) -->
+                    <div class="categories-menu" id="headerCategories">
+                        <button class="categories-btn-v2" id="categoriesBtn">
+                            <i class="fas fa-bars"></i>
+                            <span>CATEGORIES</span>
+                        </button>
+
+                        <!-- Mega Menu Dropdown -->
+                        <div class="mega-menu" id="categoriesDropdown">
+                            <div class="mega-menu-content">
+                                <!-- Dynamic content via categories-menu.js -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Inline Category Links (JamesEdition style) -->
+                    <div class="nav-cat-links" id="navCatLinks">
+                        <a href="catalog.html?category=paints" class="nav-cat-link">Paints</a>
+                        <a href="catalog.html?category=electricals" class="nav-cat-link">Electricals</a>
+                        <a href="catalog.html?category=fittings" class="nav-cat-link">Plumbing & Fittings</a>
+                        <a href="catalog.html?category=nails" class="nav-cat-link">Nails & Fasteners</a>
+                        <a href="catalog.html?category=tools" class="nav-cat-link">Tools</a>
+                        <a href="catalog.html?category=pvc" class="nav-cat-link">PVC & Piping</a>
+                    </div>
+
+                    <!-- Search Bar V2 -->
+                    <div class="nav-search-v2">
+                        <form action="catalog.html" method="GET" class="search-form-v2">
+                            <input type="text" name="search" class="search-input-v2"
+                                placeholder="Search by part name or category..." autocomplete="off">
+                            <button type="submit" class="search-submit-v2"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Right Actions -->
+                    <div class="nav-actions-v2">
+                        <button class="nav-icon-btn-v2 cart-btn" aria-label="Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">0</span>
+                        </button>
+                        <button class="mobile-hamburger" id="mobileMenuBtn" aria-label="Menu">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile slide-out menu -->
+            <div class="nav-links-v2" id="navLinks">
+                <a href="catalog.html?category=paints" class="nav-link-v2">Paints</a>
+                <a href="catalog.html?category=electricals" class="nav-link-v2">Electricals</a>
+                <a href="catalog.html?category=fittings" class="nav-link-v2">Plumbing & Fittings</a>
+                <a href="catalog.html?category=nails" class="nav-link-v2">Nails & Fasteners</a>
+                <a href="catalog.html" class="nav-link-v2">All Catalog</a>
+                <a href="#deals" class="nav-link-v2">Hot Deals</a>
+                <div class="mobile-contact-info">
+                    <a href="tel:+254726822382" class="nav-link-v2">
+                        <i class="fas fa-phone"></i> +254 726 822 382
+                    </a>
+                    <a href="mailto:info@njawamuhardware.com" class="nav-link-v2">
+                        <i class="fas fa-envelope"></i> info@njawamuhardware.com
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Background Hero Carousel -->
+        <div class="hero-bg-carousel">
+            <div class="hero-bg-slide active">
+                <img src="assets/images/hero/hardware-hero-1.png" alt="Hardware Store" class="hero-image">
+            </div>
+            <div class="hero-bg-slide">
+                <img src="assets/images/hero/hardware-hero-2.png" alt="Hardware Warehouse" class="hero-image">
+            </div>
+        </div>
+
+        <!-- Dark gradient overlay for text readability -->
+        <div class="hero-gradient-overlay"></div>
+
+        <!-- Bottom-left text overlay -->
+        <div class="hero-bottom-content">
+            <h1 class="hero-title-je">NJAWAMU<br>Hardware</h1>
+            <p class="hero-stats-line">QUALITY TOOLS &bull; 4,000+ PRODUCTS &bull; BUILDING MATERIALS &bull; NATIONWIDE
+                DELIVERY</p>
+            <p class="hero-motto">"Building for the future"</p>
+            <a href="catalog.html" class="hero-cta-btn">SHOP NOW</a>
+        </div>
+
+    </section>
+
+
+    <!-- Featured Products Section (Replaces Our Legacy) -->
+    <section class="featured-products" id="featured-products">
+        <div class="container">
+            <div class="featured-header reveal-element reveal-from-bottom">
+                <p class="section-tag">// PREMIUM SELECTION</p>
+                <h2 class="section-title-v2">FEATURED PRODUCTS</h2>
+            </div>
+
+            <div class="featured-grid">
+                <!-- 1. Paints -->
+                <div class="featured-card reveal-element reveal-from-left" data-delay="0">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/paints.jpg" alt="Paints & Finishes">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Paints & Finishes</h3>
+                        <p>Complete Range</p>
+                    </div>
+                </div>
+
+                <!-- 2. Electricals -->
+                <div class="featured-card reveal-element reveal-from-bottom" data-delay="100">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/electricals.jpg" alt="Electrical Supplies">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Electrical Supplies</h3>
+                        <p>Switches, Cables & Lighting</p>
+                    </div>
+                </div>
+
+                <!-- 3. Ignition Coil -->
+                <!-- 3. Plumbing -->
+                <div class="featured-card reveal-element reveal-from-right" data-delay="200">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/plumbing.jpg" alt="Plumbing & Fittings">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Plumbing & Fittings</h3>
+                        <p>Pipes, Valves & Tanks</p>
+                    </div>
+                </div>
+
+                <!-- 4. Tools -->
+                <div class="featured-card reveal-element reveal-zoom-in" data-delay="300">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/tools.jpg" alt="Hardware Tools">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Hardware Tools</h3>
+                        <p>Power & Hand Tools</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more-container reveal-element reveal-from-bottom">
+                <a href="catalog.html" class="btn btn-secondary btn-lg">VIEW ALL PRODUCTS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wide Promotional Banner (Header Style) -->
+    <section class="wide-promo-banner reveal-element reveal-from-bottom">
+        <div class="wide-banner-col" id="wideBanner">
+            <div id="wideBannerInner">
+                <div class="banner-text-group">
+                    <span class="banner-prefix">Explore our</span>
+                    <span class="banner-part-name" id="widePartName">HARDWARE TOOLS</span>
+                </div>
+
+                <div class="banner-img-wrap">
+                    <img id="widePartImg" src="assets/images/products/hardware/tools.jpg" alt="Hardware Tools">
+                </div>
+
+                <span class="banner-specials-tag">Available Now</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Categories Section -->
+    <section class="quick-categories" id="categories-section">
+        <div class="container">
+            <div class="quick-categories-header reveal-element reveal-from-bottom">
+                <p class="section-tag">// POPULAR CATEGORIES</p>
+                <h2 class="section-title-v2">QUICK ACCESS</h2>
+            </div>
+
+            <div class="categories-grid">
+                <!-- 1. Paints -->
+                <a href="catalog.html?category=PAINTS" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-paint-roller category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Paints &amp; Finishes</span>
+                        <span class="category-meta">Gloss, Emulsion, Undercoat</span>
+                    </div>
+                </a>
+
+                <!-- 2. Electricals -->
+                <a href="catalog.html?category=ELECTRICALS" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-plug category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Electrical Supplies</span>
+                        <span class="category-meta">Cables, Switches, Lighting</span>
+                    </div>
+                </a>
+
+                <!-- 3. Nails & Fasteners -->
+                <a href="catalog.html?category=NAILS" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-hammer category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Nails &amp; Fasteners</span>
+                        <span class="category-meta">Wire Nails, Screws, Bolts</span>
+                    </div>
+                </a>
+
+                <!-- 4. Plumbing -->
+                <a href="catalog.html?category=FITTINGS" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-faucet category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Plumbing &amp; Fittings</span>
+                        <span class="category-meta">PPR, GI, PVC Fittings</span>
+                    </div>
+                </a>
+            </div>
+
+            <div style="text-align: center; margin-top: var(--space-8);">
+                <a href="catalog.html" class="btn btn-secondary btn-lg">VIEW ALL CATEGORIES</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hot Deals Section V3 — Light & Carousel -->
+    <section class="hot-deals-section reveal-element reveal-from-bottom" id="deals">
+        <div class="container">
+            <div class="deals-header">
+                <div class="header-info">
+                    <p class="section-tag">// SPECIAL OFFERS</p>
+                    <h2 class="section-title-v2">BEST VALUES</h2>
+                </div>
+            </div>
+
+            <div class="deals-carousel-container">
+                <div class="deals-track" style="justify-content: center; gap: 40px;">
+                    <!-- Deal 1 -->
+                    <div class="deal-card">
+                        <div class="deal-badge">POPULAR</div>
+                        <div class="deal-image-wrapper">
+                            <img src="assets/images/products/hardware/paints.jpg" alt="Paints" class="deal-image"
+                                loading="lazy">
+                        </div>
+                        <div class="deal-content">
+                            <span class="deal-category">Paints</span>
+                            <h3 class="deal-title">Premium Wall Paints</h3>
+                            <div class="deal-pricing">
+                                <span class="current-price">Best Prices In Kiambu</span>
+                            </div>
+                            <div class="deal-actions">
+                                <a href="catalog.html?category=PAINTS" class="view-deal-btn">
+                                    <i class="fas fa-search"></i> Browse Range
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section reveal-element reveal-from-bottom" style="padding: 60px 0;">
+        <div class="container">
+            <h2 style="text-align: center; font-family: Outfit, sans-serif; color: #fff; margin-bottom: 30px;">VISIT OUR
+                SHOP</h2>
+            <div style="width:100%; border-radius:12px; overflow:hidden; border:1px solid rgba(255,255,255,0.1);">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31911.33234907863!2d36.7214713!3d-1.189564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f232ce92b2d61%3A0xe54e262145b2b0e6!2sBanana%20Hill!5e0!3m2!1sen!2ske!4v1773216471776!5m2!1sen!2ske"
+                    width="100%" height="400" style="border:0;display:block;" allowfullscreen="" loading="lazy"
+                    title="NJAWAMU Hardware Location, Banana Hill"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-col footer-brand">
+                    <p
+                        style="font-family:Outfit,Inter,sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#FFD700;margin:0 0 8px 0;text-shadow:0 2px 8px rgba(0,0,0,0.4);">
+                        NJAWAMU Hardware</p>
+                    <a href="index.html" style="display:inline-block;margin-bottom:12px;">
+                        <img src="assets/images/logo.png" alt="NJAWAMU Hardware"
+                            style="height:110px;width:auto;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5));">
+                    </a>
+                    <p class="footer-motto">"Building for the future"</p>
+                    <p class="footer-desc">
+                        Quality hardware and building materials since 2010. Your trusted partner for construction
+                        supplies.<br>
+                        <strong>Location:</strong> Banana Karuri area, Kiambu.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-link"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/njawamuhardware/" class="social-link" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/254726822382" class="social-link" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h3>EXPLORE</h3>
+                    <ul class="footer-links">
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="#deals">Hot Deals</a></li>
+                        <li><a href="https://wa.me/254726822382" target="_blank">Track Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="footer-col">
+                    <h3>SUPPORT</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://wa.me/254726822382" target="_blank">Help Center</a></li>
+                        <li><a href="https://wa.me/254726822382" target="_blank">Shipping Policy</a></li>
+                        <li><a href="https://wa.me/254726822382" target="_blank">Contact Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h3>NEWSLETTER</h3>
+                    <p>Subscribe for exclusive inventory updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn btn-primary">JOIN</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Location Section Removed/Replaced -->
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 NJAWAMU HARDWARE. ALL RIGHTS RESERVED.</p>
+                <div class="footer-legal">
+                    <a href="#">PRIVACY</a>
+                    <a href="#">TERMS</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="bottom-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="catalog.html" class="bottom-nav-item">
+            <i class="fas fa-th-large"></i>
+            <span>Catalog</span>
+        </a>
+        <button class="bottom-nav-item cart-btn" aria-label="Cart">
+            <div class="bottom-cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </div>
+            <span>Cart</span>
+        </button>
+        <a href="https://wa.me/254726822382" class="bottom-nav-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+    </nav>
+
+    <script src="scripts/business-config.js"></script>
+    <script src="scripts/product-data.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/categories-menu.js"></script>
+    <script src="scripts/product-carousel.js"></script>
+    <script src="scripts/hero-carousel.js"></script>
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/shuffle-banner.js"></script>
+    <script src="scripts/search-autocomplete.js"></script>
+    <script>
+        // Make featured product cards clickable → go to catalog
+        document.querySelectorAll('.featured-card').forEach(card => {
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.location.href = 'catalog.html';
+            });
+        });
+    </script>
+</body>
+
+</html>

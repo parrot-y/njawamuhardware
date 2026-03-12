@@ -1,0 +1,443 @@
+/* ================================
+   Global Styles & CSS Variables
+   ================================ */
+
+:root {
+    /* Transitions */
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* 8px Spacing System */
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-6: 48px;
+    --space-8: 64px;
+    --space-10: 80px;
+    --space-15: 120px;
+
+    /* Typography */
+    --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-display: 'Outfit', sans-serif;
+    --font-weight-bold: 800;
+    --font-weight-semi: 600;
+
+    /* Base Shadows */
+    --shadow-glow: 0 0 20px rgba(255, 215, 0, 0.1);
+
+    /* Max Widths */
+    --container-max-width: 1400px;
+}
+
+/* Light Theme (Default — Only Theme) */
+:root {
+    --bg-primary: #F2F2F7;
+    --bg-surface: #FFFFFF;
+    --accent-primary: #B8860B;
+    --accent-secondary: #8B6508;
+    --text-primary: #1C1C1E;
+    --text-secondary: #636366;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(0, 0, 0, 0.08);
+}
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: var(--font-primary);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* Prevent horizontal drag/scroll on mobile */
+    position: relative;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all images are responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve tap targets for small buttons globally if not otherwise specified */
+button,
+.btn,
+.nav-link-v2,
+.hdr-contact-btn {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all var(--transition-base);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 32px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.btn-primary {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    box-shadow: var(--shadow-glow);
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background: var(--accent-secondary);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--accent-primary);
+    color: var(--accent-primary);
+    font-weight: 700;
+}
+
+.btn-outline:hover {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    transform: translateY(-3px);
+}
+
+.btn-lg {
+    padding: 18px 48px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.btn-secondary {
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--text-primary);
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+}
+
+/* Premium Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C7C7CC;
+    border-radius: 10px;
+    transition: var(--transition-base);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+}
+
+/* Base Reveal Classes */
+@media (max-width: 992px) {
+    .animated-title {
+        font-size: 6rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .animated-title {
+        font-size: 3.5rem !important;
+    }
+}
+
+/* Selection */
+::selection {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+/* ── Scroll Reveal Animations ─────────────────────────── */
+
+/* Default state: all reveal elements start invisible */
+.reveal-element {
+    opacity: 0;
+    transition: opacity 0.8s cubic-bezier(0.165, 0.84, 0.44, 1),
+        transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: transform, opacity;
+}
+
+/* Direction variants */
+.reveal-from-bottom {
+    transform: translateY(40px);
+}
+
+.reveal-from-top {
+    transform: translateY(-40px);
+}
+
+.reveal-from-left {
+    transform: translateX(-50px);
+}
+
+.reveal-from-right {
+    transform: translateX(50px);
+}
+
+.reveal-zoom-in {
+    transform: scale(0.88);
+}
+
+/* Legacy aliases (keep backward compat) */
+.reveal-fadeInUp {
+    transform: translateY(40px);
+}
+
+.reveal-fadeInLeft {
+    transform: translateX(-40px);
+}
+
+.reveal-fadeInRight {
+    transform: translateX(40px);
+}
+
+.reveal-fadeIn {
+    transform: scale(0.95);
+}
+
+/* Product cards added dynamically — fade up */
+.product-card.reveal-element {
+    transform: translateY(28px);
+}
+
+/* Deal cards */
+.deal-card.reveal-element {
+    transform: translateY(32px);
+}
+
+/* Category cards */
+.category-card.reveal-element {
+    transform: translateY(24px);
+}
+
+/* Activated state — all variants snap to natural position */
+.reveal-active {
+    opacity: 1 !important;
+    transform: translate(0, 0) scale(1) !important;
+}
+
+/* ── Hover lift for any card ─────────────────────────── */
+.product-card,
+.featured-card,
+.deal-card,
+.category-card {
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        box-shadow 0.3s ease;
+}
+
+.product-card:hover,
+.featured-card:hover,
+.deal-card:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+.category-card:hover {
+    transform: translateY(-4px) !important;
+}
+
+
+::-moz-selection {
+    background: var(--accent-color);
+    color: var(--light);
+}
+
+/* Premium Category Sidebar List (Fix for User Request) */
+.subcategory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subcategory-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.subcategory-item:last-child {
+    border-bottom: none;
+}
+
+.subcategory-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: all var(--transition-base);
+}
+
+.subcategory-link i {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    transition: transform var(--transition-fast);
+}
+
+.subcategory-link:hover {
+    color: var(--accent-primary);
+    padding-left: 8px;
+}
+
+.subcategory-link:hover i {
+    color: var(--accent-primary);
+    transform: translateX(3px);
+}
+
+/* Header for Category Sections */
+.filter-header {
+    border-left: 3px solid var(--accent-primary);
+    padding-left: 15px;
+    margin-bottom: var(--space-4);
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-primary);
+}
+
+/* Premium Select/Dropdown Styling (Fix for User Request) */
+.premium-select-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.premium-select {
+    width: 100%;
+    background: var(--bg-surface);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    appearance: none;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.premium-select:hover {
+    border-color: var(--accent-primary);
+}
+
+.premium-select:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 4px rgba(184, 134, 11, 0.1);
+}
+
+.premium-select-wrapper::after {
+    content: '\f078';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent-primary);
+    pointer-events: none;
+    font-size: 0.8rem;
+}
+
+.hero-motto {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFD700;
+    margin-top: 15px;
+    font-style: italic;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+}

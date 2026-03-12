@@ -1,0 +1,148 @@
+/* ================================
+   Brands/Partners Section V2
+   ================================ */
+
+.companies-section {
+    padding: var(--space-20) 0;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.companies-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--space-8);
+}
+
+.companies-header {
+    text-align: center;
+    margin-bottom: var(--space-12);
+}
+
+.companies-header h2 {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: var(--space-4);
+}
+
+.companies-header p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.9rem;
+}
+
+.companies-viewport {
+    position: relative;
+    overflow: hidden;
+    padding: var(--space-8) 0;
+}
+
+.companies-viewport::before,
+.companies-viewport::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.companies-viewport::before {
+    left: 0;
+    background: linear-gradient(to right, #000, transparent);
+}
+
+.companies-viewport::after {
+    right: 0;
+    background: linear-gradient(to left, #000, transparent);
+}
+
+.companies-track {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    animation: scrollBrands 30s linear infinite;
+    width: max-content;
+}
+
+.company-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0.5;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    filter: grayscale(1) brightness(200);
+    cursor: pointer;
+}
+
+.company-item:hover {
+    opacity: 1;
+    filter: grayscale(0) brightness(100);
+    transform: scale(1.1);
+}
+
+.company-logo-img {
+    height: 48px;
+    width: auto;
+    max-width: 100px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    transition: all 0.4s ease;
+}
+
+.company-item:hover .company-logo-img {
+    filter: brightness(0) invert(1) scale(1.1);
+}
+
+.company-logo {
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+.company-name {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@keyframes scrollBrands {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-50% - 60px));
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .companies-section {
+        padding: var(--space-12) 0;
+    }
+
+    .companies-track {
+        gap: 60px;
+    }
+
+    .company-logo {
+        font-size: 2.2rem;
+    }
+
+    .company-name {
+        font-size: 1.2rem;
+    }
+
+    .companies-viewport::before,
+    .companies-viewport::after {
+        width: 80px;
+    }
+}

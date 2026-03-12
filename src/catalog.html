@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog | NJAWAMU Hardware</title>
+    <meta name="description"
+        content="Browse our extensive catalog of hardware products, building materials, tools, and construction supplies in Kiambu. Quality products at competitive prices.">
+    <meta name="keywords" content="hardware catalog, building materials, tools, construction supplies, Kiambu">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://njawamuhardware.com/catalog.html">
+    <meta property="og:title" content="Product Catalog | NJAWAMU Hardware">
+    <meta property="og:description"
+        content="Browse 4,000+ quality hardware products. Find everything you need for your construction project.">
+    <meta property="og:image" content="assets/images/products/isolated/hero_bumper.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://njawamuhardware.com/catalog.html">
+    <meta property="twitter:title" content="Product Catalog | NJAWAMU Hardware">
+    <meta property="twitter:description"
+        content="Browse 4,000+ quality hardware products. Find everything you need for your construction project.">
+    <meta property="twitter:image" content="assets/images/products/isolated/hero_bumper.webp">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/components/contact-bar.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/categories-menu.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/companies.css">
+    <link rel="stylesheet" href="styles/pages/catalog.css">
+    <!-- Proactive Service Worker Cleanup -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- ===== HEADER TOP BAR ===== -->
+    <div class="header-top-bar">
+        <!-- Logo Column -->
+        <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
+            <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
+        </a>
+
+        <!-- Animated Banner Column -->
+        <div class="header-banner-col" id="headerBanner">
+            <div id="headerBannerInner">
+                <div class="banner-text-group">
+                    <span class="banner-prefix">Explore our</span>
+                    <span class="banner-part-name" id="bannerPartName">HARDWARE TOOLS</span>
+                </div>
+                <div class="banner-img-wrap">
+                    <img id="bannerPartImg" src="assets/images/products/body-parts/bumper.webp" alt="Car Bumper"
+                        loading="eager" onerror="this.style.opacity='0.3'">
+                </div>
+                <span class="banner-specials-tag">March Specials</span>
+            </div>
+        </div>
+
+        <!-- Contact Icons Column -->
+        <div class="header-contacts-col">
+            <a href="tel:+254726822382" class="hdr-contact-btn phone" title="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="https://wa.me/254726822382" class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank"
+                rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+        <!-- Actions Column (Cart & Mobile Menu) -->
+        <div class="header-actions-col">
+            <button class="hdr-action-btn nav-icon-btn-v2 cart-btn" aria-label="Cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </button>
+            <button class="mobile-hamburger" id="catalogFilterBtn" aria-label="Filters">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Filter Backdrop (for drawer) -->
+    <div class="filter-backdrop" id="filterBackdrop"></div>
+
+    <!-- Catalog Content -->
+    <div class="catalog-container">
+        <!-- Sidebar Filters -->
+        <aside class="catalog-sidebar">
+            <!-- Mobile Close Button -->
+            <button class="filter-close-btn" id="closeFiltersBtn" aria-label="Close filters">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="filter-section">
+                <h4 class="filter-header">Filter Products</h4>
+
+                <!-- 1. Category -->
+                <div class="filter-group">
+                    <label class="filter-label">Category</label>
+                    <select class="filter-select" id="filterCategory">
+                        <option value="">All Categories</option>
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+
+                <button class="btn btn-primary" id="findPartsBtn" style="width: 100%; margin-top: 15px;">
+                    <i class="fas fa-search"></i> Find Products
+                </button>
+                <button class="btn btn-outline" id="resetFiltersBtn"
+                    style="width: 100%; margin-top: 10px; border: 1px solid #ddd;">
+                    Reset Filters
+                </button>
+            </div>
+
+            <div class="filter-section">
+                <h4 class="filter-header">Categories</h4>
+                <ul class="subcategory-list">
+                    <li class="subcategory-item"><a href="catalog.html?category=body" class="subcategory-link">Body
+                            Parts <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=engine" class="subcategory-link">Engine
+                            &amp; Components <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=suspension"
+                            class="subcategory-link">Suspension &amp; Bearings <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="subcategory-item"><a href="catalog.html?category=service"
+                            class="subcategory-link">Service &amp; Maintenance <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="subcategory-item"><a href="catalog.html?category=tyres" class="subcategory-link">Tyres
+                            and
+                            Wheels <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=accessories"
+                            class="subcategory-link">Car Accessories <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=braking"
+                            class="subcategory-link">Braking System <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=lighting" class="subcategory-link">Car
+                            Lighting <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=gearoils" class="subcategory-link">Gear
+                            Oils <i class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content (unchanged) -->
+        <main class="catalog-main">
+            <!-- Header & Search -->
+            <div class="catalog-header">
+                <div class="breadcrumbs">
+                    <span class="breadcrumb-item"><a href="index.html">Home</a></span>
+                    <span class="breadcrumb-item"><a href="catalog.html">Catalog</a></span>
+                    <span class="breadcrumb-item active" id="catalogBreadcrumb">All Products</span>
+                </div>
+
+                <div class="search-part-number">
+                    <div class="search-container-v3">
+                        <i class="fas fa-search search-icon-v3"></i>
+                        <input type="text" placeholder="Search by name, SKU or category..." class="search-part-input">
+                        <div class="search-divider-v3"></div>
+                        <button class="search-btn-v3">
+                            <span>REVEAL</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="trending-tags">
+                        <span>Trending:</span>
+                        <a href="catalog.html?category=braking" class="trending-tag">Brake Pads</a>
+                        <a href="catalog.html?category=accessories" class="trending-tag">Seat Covers</a>
+                        <a href="catalog.html?category=suspension" class="trending-tag">Shock Absorbers</a>
+                        <a href="catalog.html?category=engine" class="trending-tag">Engine Oil</a>
+                    </div>
+                </div>
+
+                <div class="view-options">
+                    <button class="view-btn active"><i class="fas fa-th-large"></i></button>
+                    <button class="view-btn"><i class="fas fa-list"></i></button>
+                </div>
+            </div>
+
+            <!-- Active Filters Chips -->
+            <div class="active-filters" id="activeFilters" style="display:none;">
+                <span class="active-filters-label">Active Filters:</span>
+                <div class="active-filter-chips" id="activeFilterChips"></div>
+                <button class="clear-all-filters" id="clearAllFilters">Clear All</button>
+            </div>
+
+            <!-- Results Toolbar -->
+            <div class="results-toolbar" id="resultsToolbar">
+                <span class="results-count" id="resultsCount">Loading products...</span>
+                <div class="results-controls">
+                    <select class="sort-select" id="sortBy">
+                        <option value="">Sort By: Relevance</option>
+                        <option value="price-asc">Price: Low → High</option>
+                        <option value="price-desc">Price: High → Low</option>
+                        <option value="rating-desc">Highest Rated</option>
+                        <option value="name-asc">Name: A → Z</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="productGrid">
+                <!-- Dynamically populated by catalog-filter.js -->
+                <div class="catalog-loading" style="grid-column: 1/-1; text-align: center; padding: 100px 0;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--accent-primary);"></i>
+                    <p style="margin-top: 15px; font-weight: 600; color: var(--text-secondary);">Loading premium
+                        parts...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Brands Section -->
+    <section class="companies-section">
+        <div class="companies-container">
+            <div class="companies-header">
+                <h2>TRUSTED BY THE BEST</h2>
+                <p>WE SOURCE PARTS FOR ALL MAJOR BRANDS</p>
+            </div>
+            <div class="companies-viewport">
+                <div class="companies-track">
+                    <!-- Brand Set 1 -->
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/toyota.svg" alt="Toyota Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">TOYOTA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/nissan.svg" alt="Nissan Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">NISSAN</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/honda.svg" alt="Honda Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">HONDA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/mazda.svg" alt="Mazda Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">MAZDA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/bmw.svg" alt="BMW Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">BMW</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/subaru.svg" alt="Subaru Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">SUBARU</span>
+                    </a>
+                    <!-- Brand Set 2 (Duplicate for Infinite Scroll) -->
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/toyota.svg" alt="Toyota Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">TOYOTA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/nissan.svg" alt="Nissan Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">NISSAN</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/honda.svg" alt="Honda Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">HONDA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/mazda.svg" alt="Mazda Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">MAZDA</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/bmw.svg" alt="BMW Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">BMW</span>
+                    </a>
+                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/brands/subaru.svg" alt="Subaru Logo" class="company-logo-img"
+                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
+                            class="company-name">SUBARU</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-grid">
+                    <!-- Brand -->
+                    <div class="footer-col footer-brand">
+                        <p
+                            style="font-family:Outfit,Inter,sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#FFD700;margin:0 0 8px 0;text-shadow:0 2px 8px rgba(0,0,0,0.4);">
+                            NJAWAMU Hardware</p>
+                        <a href="index.html" style="display:inline-block;margin-bottom:12px;">
+                            <img src="assets/images/logo.png" alt="NJAWAMU Hardware"
+                                style="height:110px;width:auto;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5));">
+                        </a>
+                        <p class="footer-motto">"Building for the future"</p>
+                        <p class="footer-desc">
+                            Your trusted partner for genuine auto spares and accessories.
+                            Quality you can drive on.
+                        </p>
+                        <div class="footer-socials">
+                            <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-link"
+                                aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/gracefulmotionauto/?utm_source=ig_web_button_share_sheet"
+                                class="social-link" aria-label="Instagram" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/254726822382" class="social-link" aria-label="WhatsApp"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="catalog.html">Full Catalog</a></li>
+                            <li><a href="#deals">Hot Deals</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="https://wa.me/254726822382" target="_blank">Contact Support</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="footer-col">
+                        <h3>Categories</h3>
+                        <ul class="footer-links">
+                            <li><a href="catalog.html?category=body">Body Parts</a></li>
+                            <li><a href="catalog.html?category=engine">Engine Parts</a></li>
+                            <li><a href="catalog.html?category=suspension">Suspension</a></li>
+                            <li><a href="catalog.html?category=lighting">Car Lighting</a></li>
+                            <li><a href="catalog.html?category=service">Service & Maintenance</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="footer-col">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div class="contact-text">
+                                    <span>Location</span>
+                                    <p>Banana Karuri area, Kiambu</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt contact-icon"></i>
+                                <div class="contact-text">
+                                    <span>Call Us</span>
+                                    <a href="tel:+254726822382">+254 726 822 382</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope contact-icon"></i>
+                                <div class="contact-text">
+                                    <span>Email</span>
+                                    <a href="mailto:info@njawamuhardware.com">info@njawamuhardware.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Maps — MSP Plaza Location -->
+            <div
+                style="width:100%;margin:24px 0 0 0;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
+                <p
+                    style="font-family:Outfit,sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.5);text-transform:uppercase;margin:0 0 8px 0;">
+                    📍 Find Us</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.822756420998!2d36.82323007573033!3d-1.279984398707831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1100386fdc9d%3A0xdb804be92cb64fa4!2sMSP%20Plaza!5e0!3m2!1sen!2ske!4v1773216471776!5m2!1sen!2ske"
+                    width="100%" height="240" style="border:0;display:block;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="MSP Plaza, Kirinyaga Road, Nairobi"></iframe>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2026 NJAWAMU Hardware. All Rights Reserved.</p>
+                    <div class="footer-legal">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="bottom-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="catalog.html" class="bottom-nav-item active">
+            <i class="fas fa-th-large"></i>
+            <span>Catalog</span>
+        </a>
+        <button class="bottom-nav-item cart-btn" aria-label="Cart">
+            <div class="bottom-cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </div>
+            <span>Cart</span>
+        </button>
+        <a href="https://wa.me/254726822382" class="bottom-nav-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+    </nav>
+
+    <!-- JavaScript -->
+    <script src="scripts/business-config.js"></script>
+    <script src="scripts/product-data.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/categories-menu.js"></script>
+    <script src="scripts/shuffle-banner.js"></script>
+    <script src="scripts/catalog-filter.js"></script>
+    <script src="scripts/search-autocomplete.js"></script>
+</body>
+
+</html>

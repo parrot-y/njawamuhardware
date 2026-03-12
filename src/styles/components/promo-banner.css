@@ -1,0 +1,366 @@
+/* ================================
+   Promotional Banner - Happy Patrons Style
+   ================================ */
+
+.promo-banner {
+    position: relative;
+    width: 100%;
+    background: #2b281d !important;
+    /* Deep Olive Brown (Happy Patrons) */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    box-shadow: none;
+    /* Flat elegant look */
+    z-index: 10;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.promo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 40px;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation Classes */
+.promo-container.fade-out {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+/* Left Section */
+.promo-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.promo-text-small {
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Clean Sans */
+    font-weight: 300;
+    /* Thin */
+    font-size: 1.5rem;
+    /* Smaller, elegant */
+    color: #FFFFFF;
+    text-transform: uppercase;
+    /* ALL CAPS */
+    letter-spacing: 2px;
+    /* Tracked out */
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.promo-badge {
+    background: transparent;
+    /* No block background, just text */
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    /* Regular weight */
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0;
+    transform: none;
+    /* Remove skew */
+    box-shadow: none;
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    /* Subtle underline */
+}
+
+/* Center Section */
+.promo-center {
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.promo-car-image {
+    height: 140px;
+    /* Slightly smaller for elegance */
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    transform: none;
+    /* No initial scale */
+    transition: transform 0.5s ease;
+}
+
+.promo-banner:hover .promo-car-image {
+    transform: scale(1.05);
+    /* Subtle zoom */
+}
+
+/* Wide Animated Promo Banner */
+.wide-promo-banner {
+    width: 100%;
+    height: 180px;
+    background: radial-gradient(circle at center, #d32f2f 0%, #000033 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: var(--space-20) 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.wide-banner-col {
+    width: 100%;
+    padding: 0 var(--space-12);
+}
+
+#wideBannerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    transition: opacity 0.4s ease;
+}
+
+#wideBannerInner.banner-fade-out {
+    opacity: 0;
+    transform: translateY(6px);
+}
+
+#wideBannerInner.banner-fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.wide-promo-banner .banner-text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.wide-promo-banner .banner-prefix {
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.wide-promo-banner .banner-part-name {
+    font-size: 3.5rem;
+    color: #FFD700;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.wide-promo-banner .banner-img-wrap {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Studio Floor effect for grounding */
+.wide-promo-banner .banner-img-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotateX(70deg);
+    width: 250px;
+    height: 40px;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, transparent 80%);
+    filter: blur(8px);
+    z-index: 1;
+    animation: wideShadowPulse 6s ease-in-out infinite;
+}
+
+@keyframes wideShadowPulse {
+
+    0%,
+    100% {
+        transform: translateX(-50%) rotateX(70deg) scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translateX(-50%) rotateX(70deg) scale(0.8);
+        opacity: 0.4;
+    }
+}
+
+.wide-promo-banner img {
+    height: 120%;
+    /* Larger presence */
+    width: auto;
+    max-width: 80%;
+    object-fit: contain;
+    background: transparent !important;
+    filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.65));
+    transform: rotate(-3deg) translateY(0);
+    z-index: 5;
+    position: relative;
+    animation: widePartFloat 6s ease-in-out infinite;
+    transition: opacity 0.3s ease;
+}
+
+@keyframes widePartFloat {
+
+    0%,
+    100% {
+        transform: rotate(-3deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-1deg) translateY(-22px);
+    }
+}
+
+.wide-promo-banner .banner-specials-tag {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .wide-promo-banner {
+        height: auto;
+        padding: 60px 20px;
+        /* Increased top padding to avoid header overlap */
+        margin: 20px 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #wideBannerInner {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .wide-promo-banner .banner-text-group {
+        width: 100%;
+        align-items: center;
+    }
+
+    .wide-promo-banner .banner-prefix {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+
+    .wide-promo-banner .banner-part-name {
+        font-size: 2.5rem;
+        /* More prominent name */
+        word-break: break-word;
+        line-height: 1.1;
+    }
+
+    .wide-promo-banner .banner-img-wrap {
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .wide-promo-banner img {
+        max-width: 85%;
+        /* Larger image */
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .wide-promo-banner .banner-specials-tag {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
+}
+
+/* Right Section */
+.promo-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.promo-script {
+    font-family: 'Helvetica Neue', sans-serif;
+    /* Match main font (clean look) */
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    line-height: 1;
+    transform: none;
+    /* No rotation */
+    text-shadow: none;
+    margin-left: 0;
+    letter-spacing: 1px;
+    font-style: italic;
+    /* Subtle italic for distinction */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .promo-container {
+        gap: 20px;
+    }
+
+    .promo-text-small,
+    .promo-badge {
+        font-size: 1.8rem;
+    }
+
+    .promo-script {
+        font-size: 3.5rem;
+    }
+
+    .promo-car-image {
+        height: 120px;
+    }
+}
+
+@media (max-width: 968px) {
+    .promo-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 40px 20px;
+    }
+
+    .promo-left,
+    .promo-right {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .promo-text-small {
+        font-size: 1.5rem;
+    }
+
+    .promo-badge {
+        font-size: 2rem;
+        transform: skewX(-5deg);
+    }
+
+    .promo-script {
+        font-size: 3rem;
+        margin-left: 0;
+        transform: rotate(-2deg);
+    }
+
+    .promo-car-image {
+        height: 140px;
+        margin: 10px 0;
+    }
+}

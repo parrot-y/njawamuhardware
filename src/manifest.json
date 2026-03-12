@@ -1,0 +1,20 @@
+{
+    "name": "Graceful Motion Autotech",
+    "short_name": "Autotech",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#786C3B",
+    "icons": [
+        {
+            "src": "assets/images/hero/hero_turbo.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "assets/images/hero/hero_turbo.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        }
+    ]
+}
