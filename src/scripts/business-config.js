@@ -5,11 +5,11 @@
 
 window.BusinessConfig = {
     phone: '254726822382',
-    phoneDisplay: '0726 822 382',
+    phoneDisplay: '+254 726 822 382',
     whatsapp: '254726822382',
     email: 'info@njawamuhardware.com',
     businessName: 'NJAWAMU Hardware',
-    location: 'Banana Karuri area, Kiambu',
+    location: 'MSP PLAZA Room G14, Kirinyaga Road, Nairobi',
 
     /** Validate WhatsApp number: digits only, 10–15 digits */
     isValidWhatsApp(number) {

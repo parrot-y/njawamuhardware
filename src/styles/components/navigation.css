@@ -24,52 +24,17 @@
     background: transparent;
     padding: 10px 30px;
     text-decoration: none;
-    z-index: 10;
-    position: relative;
-}
-
-/* Mockup 3 Style: High-intensity white glow aura */
-.header-logo-col::before {
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 140px;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.3) 40%, transparent 70%);
-    filter: blur(20px);
-    border-radius: 50%;
-    z-index: -1;
-    animation: auraPulse 3s ease-in-out infinite;
-}
-
-@keyframes auraPulse {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.85;
-    }
-
-    50% {
-        transform: scale(1.2);
-        opacity: 1;
-    }
+    z-index: 5;
 }
 
 .header-logo-col img {
-    height: 125px;
+    height: 120px;
     width: auto;
     object-fit: contain;
     display: block;
-    /* Heavy white glow — visible against dark banner */
-    filter:
-        drop-shadow(0 0 8px rgba(255, 255, 255, 1)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.85)) drop-shadow(0 0 40px rgba(255, 220, 180, 0.6)) drop-shadow(0 6px 20px rgba(0, 0, 0, 0.5));
-    transition: transform 0.4s ease, filter 0.4s ease;
-}
-
-.header-logo-col img:hover {
-    filter:
-        drop-shadow(0 0 12px rgba(255, 255, 255, 1)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 55px rgba(255, 220, 180, 0.75)) drop-shadow(0 6px 20px rgba(0, 0, 0, 0.5));
-    transform: scale(1.04);
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
+    mix-blend-mode: multiply;
+    /* Removes white background from logo image */
 }
 
 /* ---- Banner Column ---- */
@@ -488,11 +453,11 @@
 .nav-cat-link {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Inter', sans-serif;
-    font-size: 0.82rem;
+    font-size: 0.95rem;
     font-weight: 500;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 14px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -737,37 +702,11 @@
     }
 
     .banner-part-name {
-        font-size: 1.2rem;
-        /* Slightly smaller for mobile fit */
-    }
-
-    .banner-img-wrap {
-        min-width: 120px;
-        flex: 0 1 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10px;
-        background: rgba(255, 255, 255, 0.15);
-        border-radius: 8px;
-        padding: 4px;
-    }
-
-    /* Adjust ground shadow for mobile */
-    .banner-img-wrap::after {
-        width: 120px;
-        height: 15px;
-        right: 0;
-        bottom: 0;
-    }
-
-    /* Adjust backlight for mobile */
-    .banner-img-wrap::before {
-        inset: -20px;
+        font-size: 1.3rem;
     }
 
     .banner-prefix {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
 
     .banner-specials-tag {
@@ -775,22 +714,15 @@
     }
 
     #bannerPartImg {
-        /* Fixed box — image always fully visible regardless of aspect ratio */
-        width: 56px;
         height: 56px;
-        object-fit: contain;
-        max-width: none;
+        max-width: 120px;
         /* Reset complex transforms for mobile stability */
         transform: none !important;
-        animation: none !important;
-        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+        filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
     }
 
     #headerBannerInner {
         padding: 0 16px;
-        justify-content: flex-start;
-        /* Ensure logo and text stay left */
-        gap: 12px;
     }
 
     .header-contacts-col,

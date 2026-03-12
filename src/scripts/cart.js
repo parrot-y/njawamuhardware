@@ -214,7 +214,7 @@ function initCartLogic() {
         message += `💰 *GRAND TOTAL: KES ${total.toLocaleString()}*\n`;
         message += `--------------------------------\n\n`;
         message += `⚠️ *Kindly confirm compatibility for this vehicle.*\n\n`;
-        message += `_Please acknowledge this order to proceed with delivery. Thank you for shopping with Graceful Motion Autotech!_`;
+        message += `_Please acknowledge this order to proceed with delivery. Thank you for shopping with NJAWAMU Hardware!_`;
 
         if (window.BusinessConfig) {
             window.BusinessConfig.openWhatsApp(message);

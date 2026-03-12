@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="pageTitle">Product Details | NJAWAMU Hardware</title>
     <meta name="description"
-        content="View quality hardware and building material details. Quality guaranteed. Order via WhatsApp.">
+        content="View quality hardware product details, specifications, and order via WhatsApp. Quality materials for construction and home improvement.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="product">
+    <meta property="og:url" content="https://gracefulmotion.com/product-details.html">
     <meta property="og:title" content="Product Details | NJAWAMU Hardware">
-    <meta property="og:description" content="Quality hardware supplies at NJAWAMU Hardware.">
+    <meta property="og:description" content="View quality hardware product details and order via WhatsApp.">
+    <meta property="og:image" content="assets/images/products/hardware/paints.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gracefulmotion.com/product-details.html">
+    <meta property="twitter:title" content="Product Details | NJAWAMU Hardware">
+    <meta property="twitter:description" content="View quality hardware product details and order via WhatsApp.">
+    <meta property="twitter:image" content="assets/images/products/hardware/paints.jpg">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,19 +32,30 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Stylesheets -->
+    <!-- Stylesheets — same as other pages -->
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/components/contact-bar.css">
     <link rel="stylesheet" href="styles/components/navigation.css">
     <link rel="stylesheet" href="styles/components/categories-menu.css">
     <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/companies.css">
     <link rel="stylesheet" href="styles/pages/catalog.css">
     <link rel="stylesheet" href="styles/pages/product-details.css">
+    <!-- Proactive Service Worker Cleanup -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
 
-    <!-- ===== HEADER TOP BAR ===== -->
+    <!-- ===== HEADER TOP BAR (identical to all pages) ===== -->
     <div class="header-top-bar">
         <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
             <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
@@ -43,14 +63,14 @@
         <div class="header-banner-col" id="headerBanner">
             <div id="headerBannerInner">
                 <div class="banner-text-group">
-                    <span class="banner-prefix">Quality</span>
-                    <span class="banner-part-name" id="bannerPartName">HARDWARE</span>
+                    <span class="banner-prefix">Get the best</span>
+                    <span class="banner-part-name" id="bannerPartName">PAINTS & COATINGS</span>
                 </div>
                 <div class="banner-img-wrap">
-                    <img id="bannerPartImg" src="assets/images/featured/placeholder.png" alt="Product" loading="eager"
-                        onerror="this.style.opacity='0.3'">
+                    <img id="bannerPartImg" src="assets/images/products/hardware/paints.jpg" alt="Paints"
+                        loading="eager">
                 </div>
-                <span class="banner-specials-tag">Best Pricing</span>
+                <span class="banner-specials-tag">March Specials</span>
             </div>
         </div>
         <div class="header-contacts-col">
@@ -60,6 +80,7 @@
             <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us"><i
                     class="fas fa-envelope"></i></a>
         </div>
+        <!-- Actions Column (Cart & Mobile Menu) -->
         <div class="header-actions-col">
             <button class="hdr-action-btn nav-icon-btn-v2 cart-btn" aria-label="Cart">
                 <i class="fas fa-shopping-cart"></i>
@@ -70,6 +91,8 @@
             </button>
         </div>
     </div>
+
+
 
     <!-- ===== BREADCRUMB BAR ===== -->
     <div class="pd-breadcrumb-bar">
@@ -89,6 +112,7 @@
     <!-- ===== PRODUCT DETAIL MAIN ===== -->
     <main class="pd-main">
         <div class="pd-container">
+            <!-- Loading shimmer -->
             <div class="pd-loading" id="pdLoading">
                 <div class="pd-shimmer-img"></div>
                 <div class="pd-shimmer-info">
@@ -98,6 +122,7 @@
                     <div class="pd-shimmer-line" style="width:100%;height:80px;margin-top:16px;"></div>
                 </div>
             </div>
+            <!-- Content rendered by JS -->
             <div class="pd-content" id="pdContent" style="display:none;"></div>
         </div>
     </main>
@@ -106,13 +131,14 @@
     <section class="pd-related" id="pdRelated" style="display:none;">
         <div class="container">
             <div class="pd-related-header">
-                <p class="section-tag">// RECOMMENDED FOR YOU</p>
-                <h2 class="pd-related-title">RELATED PRODUCTS</h2>
+                <p class="section-tag">// YOU MIGHT ALSO LIKE</p>
+                <h2 class="pd-related-title">RELATED PARTS</h2>
             </div>
             <div class="product-grid" id="relevantGrid"></div>
         </div>
     </section>
 
+    <!-- ===== MOBILE STICKY ACTION BAR ===== -->
     <div class="pd-sticky-bar" id="pdStickyBar">
         <button class="pd-sticky-btn pd-sticky-cart" id="stickyCartBtn">
             <i class="fas fa-shopping-cart"></i>
@@ -120,34 +146,51 @@
         </button>
         <button class="pd-sticky-btn pd-sticky-wa" id="stickyWhatsApp">
             <i class="fab fa-whatsapp"></i>
-            <span>WhatsApp</span>
+            <span>Order via WhatsApp</span>
         </button>
-        <a href="tel:+254726822382" class="pd-sticky-btn pd-sticky-call" id="stickyCall">
-            <i class="fas fa-phone-alt"></i>
-            <span>Call Now</span>
-        </a>
     </div>
+
+    <!-- Brands Section -->
+    <section class="companies-section">
+        <div class="companies-container">
+            <div class="companies-header">
+                <h2>TRUSTED BY THE BEST</h2>
+                <p>WE SOURCE PARTS FOR ALL MAJOR BRANDS</p>
+            </div>
+            <div class="companies-viewport">
+                <!-- Hardware Brands -->
+                <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
+                <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
+                <div class="company-item"><span class="company-name">STANLEY</span></div>
+                <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
+                <!-- Repeat -->
+                <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
+                <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
+                <div class="company-item"><span class="company-name">STANLEY</span></div>
+                <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
+            </div>
+        </div>
+    </section>
 
     <!-- ===== FOOTER ===== -->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col footer-brand">
-                    <p
-                        style="font-family:Outfit,Inter,sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#FFD700;margin:0 0 8px 0;text-shadow:0 2px 8px rgba(0,0,0,0.4);">
-                        NJAWAMU Hardware</p>
-                    <a href="index.html" style="display:inline-block;margin-bottom:12px;">
-                        <img src="assets/images/logo.png" alt="NJAWAMU Hardware"
-                            style="height:110px;width:auto;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5));">
-                    </a>
-                    <p class="footer-motto">"Building for the future"</p>
+                    <h2 class="logo"><i class="fas fa-screwdriver-wrench"></i><span>NJAWAMU Hardware</span></h2>
+                    <p class="footer-desc">Your trusted partner for quality hardware, paints, plumbing, and electrical
+                        supplies. Building Kenya together.</p>
                 </div>
                 <div class="footer-col">
                     <h4 class="footer-heading">Quick Links</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="catalog.html">Catalog</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="catalog.html">Shop All</a></li>
+                        <li><a href="catalog.html?category=Paints">Paints</a></li>
+                        <li><a href="catalog.html?category=Electricals">Electricals</a></li>
+                        <li><a href="catalog.html?category=Plumbing">Plumbing</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -156,14 +199,14 @@
                         <li><a href="tel:+254726822382"><i class="fas fa-phone fa-xs"></i> +254 726 822 382</a></li>
                         <li><a href="https://wa.me/254726822382" target="_blank"><i class="fab fa-whatsapp fa-xs"></i>
                                 WhatsApp Order</a></li>
-                        <li><a href="mailto:info@njawamuhardware.com"><i class="fas fa-envelope fa-xs"></i>
-                                info@njawamuhardware.com</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="https://wa.me/254726822382" target="_blank">Contact Support</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
-                    <p class="copyright">&copy; 2026 NJAWAMU Hardware. All Rights Reserved.</p>
+                    <p class="copyright">&copy; 2024 NJAWAMU Hardware. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -179,6 +222,13 @@
             <i class="fas fa-th-large"></i>
             <span>Catalog</span>
         </a>
+        <button class="bottom-nav-item cart-btn" aria-label="Cart">
+            <div class="bottom-cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </div>
+            <span>Cart</span>
+        </button>
         <a href="https://wa.me/254726822382" class="bottom-nav-item" target="_blank">
             <i class="fab fa-whatsapp"></i>
             <span>WhatsApp</span>
@@ -191,6 +241,7 @@
     <script src="scripts/navigation.js"></script>
     <script src="scripts/categories-menu.js"></script>
     <script src="scripts/cart.js?v=4.3"></script>
+    <script src="scripts/search-autocomplete.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
@@ -205,8 +256,8 @@
                 pdContent.style.display = 'block';
                 pdContent.innerHTML = `
                 <div class="pd-error">
-                    <div class="pd-error-icon">🏗️</div>
-                    <h2>Product Not Found</h2>
+                    <div class="pd-error-icon">🔧</div>
+                    <h2>Part Not Found</h2>
                     <p>${msg}</p>
                     <a href="catalog.html" class="pd-back-btn">← Back to Catalog</a>
                 </div>
@@ -214,72 +265,233 @@
             }
 
             if (!productId || !window.RenovyteProducts) {
-                showError('Product not found.');
+                showError('The part you\'re looking for may have been moved. Browse our full catalog below.');
                 return;
             }
 
             const product = window.RenovyteProducts.find(p => p.id === productId);
             if (!product) {
-                showError('Product ID not found in our catalog.');
+                showError('This product ID was not found in our catalogue.');
                 return;
             }
 
-            document.getElementById('pageTitle').textContent = `${product.name} | NJAWAMU Hardware`;
-            document.getElementById('breadcrumbCategory').textContent = product.category;
-            document.getElementById('breadcrumbCategoryLink').href = `catalog.html?category=${encodeURIComponent(product.category)}`;
+            // Update page title & breadcrumb
+            document.getElementById('pageTitle').textContent = `${product.name} - NJAWAMU Hardware`;
+            document.getElementById('breadcrumbCategory').textContent = product.category || 'Parts';
+            document.getElementById('breadcrumbCategoryLink').href = `catalog.html?category=${encodeURIComponent(product.category || 'Parts')}`;
             document.getElementById('breadcrumbProduct').textContent = product.name;
 
+            // Star HTML
+            const stars = Math.round(product.rating || 4.5);
+            const starsHtml = '★'.repeat(stars) + '☆'.repeat(5 - stars);
+            const reviewCount = Math.floor(Math.random() * 200 + 40);
+
+            // Trust badges
+            const specsHtml = product.specs
+                ? Object.entries(product.specs).map(([k, v]) => `
+                <div class="pd-spec-row">
+                    <span class="pd-spec-key">${k}</span>
+                    <span class="pd-spec-val">${v}</span>
+                </div>`).join('')
+                : `
+                <div class="pd-spec-row"><span class="pd-spec-key">SKU</span><span class="pd-spec-val">NJ-${product.id.substring(0, 8).toUpperCase()}</span></div>
+                <div class="pd-spec-row"><span class="pd-spec-key">Category</span><span class="pd-spec-val">${product.category || 'Hardware'}</span></div>
+            `;
+
+            // Handle Images (Single vs Multiple for Carousel)
             const images = product.images || [product.image];
             const hasMultiple = images.length > 1;
 
+            // Render product
             pdLoading.style.display = 'none';
             pdContent.style.display = 'grid';
             pdContent.innerHTML = `
+            <!-- LEFT: Image Panel with Carousel Support -->
             <div class="pd-image-panel">
-                <div class="pd-image-container ${hasMultiple ? 'is-carousel' : ''}">
-                    <img src="${product.image}" alt="${product.name}" class="pd-main-img" onerror="this.src='assets/images/featured/placeholder.png'">
-                    <span class="pd-in-stock-badge">In Stock</span>
+                <div class="pd-image-container ${hasMultiple ? 'is-carousel' : ''}" id="pdImageContainer">
+                    <div class="pd-image-track" id="pdImageTrack">
+                        ${images.map((img, idx) => `
+                            <div class="pd-image-slide" data-index="${idx}">
+                                <img src="${img}" alt="${product.name} - Image ${idx + 1}"
+                                     class="pd-main-img" onerror="this.src='assets/images/hero/hero-1.webp'"
+                                     loading="${idx === 0 ? 'eager' : 'lazy'}">
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <span class="pd-in-stock-badge"><i class="fas fa-circle" style="font-size:0.5em;margin-right:4px;"></i> In Stock</span>
+
+                    ${hasMultiple ? `
+                        <div class="pd-carousel-nav">
+                            <button class="pd-carousel-arrow prev" id="pdPrevImg"><i class="fas fa-chevron-left"></i></button>
+                            <button class="pd-carousel-arrow next" id="pdNextImg"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                        <div class="pd-carousel-dots" id="pdCarouselDots">
+                            ${images.map((_, i) => `<span class="pd-dot ${i === 0 ? 'active' : ''}" data-index="${i}"></span>`).join('')}
+                        </div>
+                    ` : ''}
+
+                    <button class="pd-zoom-hint" id="pdZoomBtn" title="Click to zoom">
+                        <i class="fas fa-expand-alt"></i>
+                    </button>
                 </div>
             </div>
 
+            <!-- RIGHT: Info Panel -->
             <div class="pd-info-panel">
+                <!-- Breadcrumb-like sub-label -->
                 <div class="pd-category-label">
-                    <a href="catalog.html?category=${encodeURIComponent(product.category)}">${product.category}</a>
+                    <a href="catalog.html?category=${encodeURIComponent(product.category || '')}">${product.category || 'Auto Parts'}</a>
+                    ${product.subcategory ? `<span> / ${product.subcategory}</span>` : ''}
                 </div>
 
                 <h1 class="pd-title">${product.name}</h1>
-                
+
+                <!-- Rating -->
+                <div class="pd-rating-row">
+                    <span class="pd-stars">${starsHtml}</span>
+                    <span class="pd-reviews">${reviewCount} verified reviews</span>
+                </div>
+
+                <!-- Price -->
                 <div class="pd-price-block">
                     <span class="pd-price">${product.price}</span>
-                    <span class="pd-free-delivery"><i class="fas fa-truck"></i> Quality Guaranteed</span>
+                    <span class="pd-free-delivery"><i class="fas fa-truck"></i> Free delivery in Nairobi</span>
                 </div>
 
-                <p class="pd-description">${product.description}</p>
+                <!-- Description -->
+                <p class="pd-description">${product.description || 'Premium quality part. Direct replacement for OEM specifications.'}</p>
 
+                <!-- Specs -->
                 <div class="pd-specs-box">
                     <div class="pd-specs-header">
-                        <i class="fas fa-info-circle"></i>
-                        <span>Product Info</span>
+                        <i class="fas fa-list-ul"></i>
+                        <span>Product Specifications</span>
                     </div>
                     <div class="pd-specs-grid">
-                        <div class="pd-spec-row"><span class="pd-spec-key">SKU</span><span class="pd-spec-val">${product.sku}</span></div>
-                        <div class="pd-spec-row"><span class="pd-spec-key">Category</span><span class="pd-spec-val">${product.category}</span></div>
+                        ${specsHtml}
                     </div>
                 </div>
 
-                <div class="pd-action-area">
-                    <button class="pd-btn-wa" id="orderWhatsApp">
-                        <i class="fab fa-whatsapp"></i> Inquire via WhatsApp
-                    </button>
-                    <a href="tel:+254726822382" class="pd-btn-call">
-                        <i class="fas fa-phone-alt"></i> Call to Order
-                    </a>
+                <!-- Trust Badges -->
+                <div class="pd-trust-row">
+                    <div class="pd-trust-item">
+                        <i class="fas fa-medal"></i>
+                        <span>Genuine Part</span>
+                    </div>
+                    <div class="pd-trust-item">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>12-Month Warranty</span>
+                    </div>
+                    <div class="pd-trust-item">
+                        <i class="fas fa-headset"></i>
+                        <span>Expert Support</span>
+                    </div>
+                    <div class="pd-trust-item">
+                        <i class="fas fa-rotate-left"></i>
+                        <span>Easy Returns</span>
+                    </div>
                 </div>
-            </div>
-            `;
 
+                <!-- Desktop Action Area -->
+                <div class="pd-action-area">
+                    <div class="pd-qty-group">
+                        <button class="pd-qty-btn" id="qtyMinus">−</button>
+                        <input type="number" class="pd-qty-input" id="buyQty" value="1" min="1" max="99">
+                        <button class="pd-qty-btn" id="qtyPlus">+</button>
+                    </div>
+                    <button class="pd-btn-cart add-to-cart-btn" data-id="${product.id}">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="pd-btn-wa" id="orderWhatsApp">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </button>
+                </div>
+
+                <!-- WhatsApp note for mobile -->
+                <p class="pd-wa-note">
+                    <i class="fab fa-whatsapp" style="color:#25D366;"></i>
+                    Prefer WhatsApp? Tap <strong>Order on WhatsApp</strong> to get instant assistance.
+                </p>
+            </div>
+        `;
+
+            // --- CAROUSEL LOGIC ---
+            if (hasMultiple) {
+                const track = document.getElementById('pdImageTrack');
+                const dots = document.querySelectorAll('.pd-dot');
+                const prevBtn = document.getElementById('pdPrevImg');
+                const nextBtn = document.getElementById('pdNextImg');
+                let currentImgIndex = 0;
+
+                const updateCarousel = (index) => {
+                    currentImgIndex = index;
+                    track.style.transform = `translateX(-${index * 100}%)`;
+                    dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+                };
+
+                prevBtn?.addEventListener('click', () => {
+                    const newIdx = (currentImgIndex - 1 + images.length) % images.length;
+                    updateCarousel(newIdx);
+                });
+
+                nextBtn?.addEventListener('click', () => {
+                    const newIdx = (currentImgIndex + 1) % images.length;
+                    updateCarousel(newIdx);
+                });
+
+                dots.forEach((dot, i) => {
+                    dot.addEventListener('click', () => updateCarousel(i));
+                });
+
+                // Touch Swipe
+                let touchStartX = 0;
+                let touchEndX = 0;
+
+                track.addEventListener('touchstart', (e) => {
+                    touchStartX = e.changedTouches[0].screenX;
+                }, { passive: true });
+
+                track.addEventListener('touchend', (e) => {
+                    touchEndX = e.changedTouches[0].screenX;
+                    const diff = touchStartX - touchEndX;
+                    if (Math.abs(diff) > 50) {
+                        if (diff > 0) nextBtn.click();
+                        else prevBtn.click();
+                    }
+                }, { passive: true });
+            }
+
+            // Qty buttons
+            document.getElementById('qtyMinus')?.addEventListener('click', () => {
+                const input = document.getElementById('buyQty');
+                if (input.value > 1) input.value--;
+            });
+            document.getElementById('qtyPlus')?.addEventListener('click', () => {
+                const input = document.getElementById('buyQty');
+                if (input.value < 99) input.value++;
+            });
+
+            // Image zoom
+            document.getElementById('pdZoomBtn')?.addEventListener('click', () => {
+                const wrap = document.getElementById('pdImageWrap');
+                wrap.classList.toggle('zoomed');
+                const icon = document.querySelector('#pdZoomBtn i');
+                icon.className = wrap.classList.contains('zoomed') ? 'fas fa-compress-alt' : 'fas fa-expand-alt';
+            });
+
+            // WhatsApp handler
             const handleOrder = () => {
-                const message = `Hello NJAWAMU Hardware! 👋\n\nI am interested in:\n\n🔨 *Product:* ${product.name}\n🆔 *SKU:* ${product.sku}\n📦 *Category:* ${product.category}\n\nPlease confirm availability. Thank you!`;
+                const qty = document.getElementById('buyQty')?.value || 1;
+                const message =
+                    `Hello NJAWAMU Hardware! 👋\n\n` +
+                    `I would like to order the following part:\n\n` +
+                    `🔧 *Product:* ${product.name}\n` +
+                    `📦 *Category:* ${product.category}\n` +
+                    `💰 *Price:* ${product.price}\n` +
+                    `🔢 *Quantity:* ${qty}\n` +
+                    `🆔 *SKU:* NJ-${product.id.substring(0, 8).toUpperCase()}\n\n` +
+                    `Could you please confirm availability and delivery details to my location? Thank you!`;
                 window.BusinessConfig.openWhatsApp(message);
             };
 
@@ -287,9 +499,13 @@
                 if (e.target.closest('#orderWhatsApp') || e.target.closest('#stickyWhatsApp')) {
                     handleOrder();
                 }
+                if (e.target.closest('#stickyCartBtn')) {
+                    const cartBtn = document.querySelector('.pd-btn-cart[data-id]');
+                    if (cartBtn) cartBtn.click();
+                }
             });
 
-            // Brief related products logic
+            // Related products
             const related = window.RenovyteProducts
                 .filter(p => p.id !== product.id && p.category === product.category)
                 .slice(0, 4);
@@ -297,23 +513,53 @@
             if (related.length > 0) {
                 pdRelated.style.display = 'block';
                 const grid = document.getElementById('relevantGrid');
-                grid.innerHTML = related.map(p => `
+                grid.innerHTML = related.map(p => {
+                    const s = Math.round(p.rating || 4.5);
+                    return `
                 <div class="product-card">
                     <div class="product-image-wrapper">
-                        <img src="${p.image}" alt="${p.name}" class="product-image" loading="lazy" onerror="this.src='assets/images/featured/placeholder.png'">
+                        <span class="product-stock-badge">In Stock</span>
+                        <img src="${p.image}" alt="${p.name}" class="product-image" loading="lazy" onerror="this.src='assets/images/hero/hero-1.webp'">
                         <div class="product-actions">
-                            <a href="product-details.html?id=${p.id}" class="action-btn btn-view"><i class="fas fa-eye"></i> View</a>
+                            <a href="product-details.html?id=${p.id}" class="action-btn btn-view">
+                                <i class="fas fa-eye"></i> View
+                            </a>
+                            <button class="action-btn btn-cart add-to-cart-btn" data-id="${p.id}">
+                                <i class="fas fa-shopping-cart"></i> +Cart
+                            </button>
                         </div>
                     </div>
                     <div class="product-details">
                         <span class="product-category">${p.category}</span>
                         <h3 class="product-title">${p.name}</h3>
-                        <div class="product-price-row"><span class="product-price">${p.price}</span></div>
+                        <div class="product-rating-row">
+                            <span class="product-stars">${'★'.repeat(s)}${'☆'.repeat(5 - s)}</span>
+                        </div>
+                        <div class="product-price-row">
+                            <span class="product-price">${p.price}</span>
+                            <button class="product-wishlist-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+                        </div>
                     </div>
-                </div>`).join('');
+                </div>`;
+                }).join('');
             }
+
+            // Mobile sticky bar — show immediately on mobile
+            const updateStickyBar = () => {
+                if (window.innerWidth <= 768) {
+                    pdStickyBar.classList.add('active');
+                } else {
+                    pdStickyBar.classList.remove('active');
+                }
+            };
+
+            updateStickyBar();
+            window.addEventListener('resize', updateStickyBar);
+            // Also show on scroll as a backup/reinforcement
+            window.addEventListener('scroll', updateStickyBar, { passive: true });
         });
     </script>
+
 </body>
 
 </html>

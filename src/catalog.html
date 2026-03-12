@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Catalog | NJAWAMU Hardware</title>
     <meta name="description"
-        content="Browse our extensive catalog of hardware products, building materials, tools, and construction supplies in Kiambu. Quality products at competitive prices.">
-    <meta name="keywords" content="hardware catalog, building materials, tools, construction supplies, Kiambu">
+        content="Browse our extensive catalog of genuine hardware products, including paints, electricals, plumbing fittings, and building materials. Quality tools and supplies in Nairobi.">
+    <meta name="keywords"
+        content="hardware catalog, construction materials, paints Nairobi, electrical supplies Kenya, plumbing fittings">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://njawamuhardware.com/catalog.html">
+    <meta property="og:url" content="https://gracefulmotion.com/catalog.html">
     <meta property="og:title" content="Product Catalog | NJAWAMU Hardware">
     <meta property="og:description"
-        content="Browse 4,000+ quality hardware products. Find everything you need for your construction project.">
-    <meta property="og:image" content="assets/images/products/isolated/hero_bumper.webp">
+        content="Browse 4,000+ quality hardware products. Find the right materials for your project.">
+    <meta property="og:image" content="assets/images/products/hardware/paints.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://njawamuhardware.com/catalog.html">
+    <meta property="twitter:url" content="https://gracefulmotion.com/catalog.html">
     <meta property="twitter:title" content="Product Catalog | NJAWAMU Hardware">
     <meta property="twitter:description"
-        content="Browse 4,000+ quality hardware products. Find everything you need for your construction project.">
-    <meta property="twitter:image" content="assets/images/products/isolated/hero_bumper.webp">
+        content="Browse 4,000+ quality hardware products. Find the right materials for your project.">
+    <meta property="twitter:image" content="assets/images/products/hardware/paints.jpg">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,12 +69,12 @@
         <div class="header-banner-col" id="headerBanner">
             <div id="headerBannerInner">
                 <div class="banner-text-group">
-                    <span class="banner-prefix">Explore our</span>
-                    <span class="banner-part-name" id="bannerPartName">HARDWARE TOOLS</span>
+                    <span class="banner-prefix">Get the best</span>
+                    <span class="banner-part-name" id="bannerPartName">PAINTS & COATINGS</span>
                 </div>
                 <div class="banner-img-wrap">
-                    <img id="bannerPartImg" src="assets/images/products/body-parts/bumper.webp" alt="Car Bumper"
-                        loading="eager" onerror="this.style.opacity='0.3'">
+                    <img id="bannerPartImg" src="assets/images/products/hardware/paints.jpg" alt="Paints"
+                        loading="eager">
                 </div>
                 <span class="banner-specials-tag">March Specials</span>
             </div>
@@ -125,12 +126,19 @@
                     <label class="filter-label">Category</label>
                     <select class="filter-select" id="filterCategory">
                         <option value="">All Categories</option>
-                        <!-- Populated by JS -->
+                        <option value="Paints">Paints</option>
+                        <option value="Electricals">Electricals</option>
+                        <option value="Plumbing">Plumbing</option>
+                        <option value="Hardware &amp; Fasteners">Hardware &amp; Fasteners</option>
+                        <option value="Iron Sheets">Iron Sheets</option>
+                        <option value="Building Materials">Building Materials</option>
                     </select>
                 </div>
 
+                <!-- Removed unused filters per user instruction -->
+
                 <button class="btn btn-primary" id="findPartsBtn" style="width: 100%; margin-top: 15px;">
-                    <i class="fas fa-search"></i> Find Products
+                    <i class="fas fa-search"></i> Find Parts
                 </button>
                 <button class="btn btn-outline" id="resetFiltersBtn"
                     style="width: 100%; margin-top: 10px; border: 1px solid #ddd;">
@@ -141,27 +149,19 @@
             <div class="filter-section">
                 <h4 class="filter-header">Categories</h4>
                 <ul class="subcategory-list">
-                    <li class="subcategory-item"><a href="catalog.html?category=body" class="subcategory-link">Body
-                            Parts <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=engine" class="subcategory-link">Engine
-                            &amp; Components <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=suspension"
-                            class="subcategory-link">Suspension &amp; Bearings <i class="fas fa-chevron-right"></i></a>
+                    <li class="subcategory-item"><a href="catalog.html?category=Paints" class="subcategory-link">Paints
+                            <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=Electricals"
+                            class="subcategory-link">Electricals <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=Plumbing"
+                            class="subcategory-link">Plumbing <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=Hardware%26Fasteners"
+                            class="subcategory-link">Hardware &amp; Fasteners <i class="fas fa-chevron-right"></i></a>
                     </li>
-                    <li class="subcategory-item"><a href="catalog.html?category=service"
-                            class="subcategory-link">Service &amp; Maintenance <i class="fas fa-chevron-right"></i></a>
-                    </li>
-                    <li class="subcategory-item"><a href="catalog.html?category=tyres" class="subcategory-link">Tyres
-                            and
-                            Wheels <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=accessories"
-                            class="subcategory-link">Car Accessories <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=braking"
-                            class="subcategory-link">Braking System <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=lighting" class="subcategory-link">Car
-                            Lighting <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="subcategory-item"><a href="catalog.html?category=gearoils" class="subcategory-link">Gear
-                            Oils <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=Iron%20Sheets"
+                            class="subcategory-link">Iron Sheets <i class="fas fa-chevron-right"></i></a></li>
+                    <li class="subcategory-item"><a href="catalog.html?category=Building%20Materials"
+                            class="subcategory-link">Building Materials <i class="fas fa-chevron-right"></i></a></li>
                 </ul>
             </div>
         </aside>
@@ -179,7 +179,8 @@
                 <div class="search-part-number">
                     <div class="search-container-v3">
                         <i class="fas fa-search search-icon-v3"></i>
-                        <input type="text" placeholder="Search by name, SKU or category..." class="search-part-input">
+                        <input type="text" placeholder="Search for performance parts, numbers..."
+                            class="search-part-input">
                         <div class="search-divider-v3"></div>
                         <button class="search-btn-v3">
                             <span>REVEAL</span>
@@ -188,10 +189,10 @@
                     </div>
                     <div class="trending-tags">
                         <span>Trending:</span>
-                        <a href="catalog.html?category=braking" class="trending-tag">Brake Pads</a>
-                        <a href="catalog.html?category=accessories" class="trending-tag">Seat Covers</a>
-                        <a href="catalog.html?category=suspension" class="trending-tag">Shock Absorbers</a>
-                        <a href="catalog.html?category=engine" class="trending-tag">Engine Oil</a>
+                        <a href="#" class="trending-tag">Crown Paints</a>
+                        <a href="#" class="trending-tag">Bamburi</a>
+                        <a href="#" class="trending-tag">Makita</a>
+                        <a href="#" class="trending-tag">Stanley</a>
                     </div>
                 </div>
 
@@ -242,69 +243,45 @@
                 <p>WE SOURCE PARTS FOR ALL MAJOR BRANDS</p>
             </div>
             <div class="companies-viewport">
-                <div class="companies-track">
-                    <!-- Brand Set 1 -->
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/toyota.svg" alt="Toyota Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">TOYOTA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/nissan.svg" alt="Nissan Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">NISSAN</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/honda.svg" alt="Honda Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">HONDA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/mazda.svg" alt="Mazda Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">MAZDA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/bmw.svg" alt="BMW Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">BMW</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/subaru.svg" alt="Subaru Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">SUBARU</span>
-                    </a>
-                    <!-- Brand Set 2 (Duplicate for Infinite Scroll) -->
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/toyota.svg" alt="Toyota Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">TOYOTA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/nissan.svg" alt="Nissan Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">NISSAN</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/honda.svg" alt="Honda Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">HONDA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/mazda.svg" alt="Mazda Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">MAZDA</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/bmw.svg" alt="BMW Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">BMW</span>
-                    </a>
-                    <a href="catalog.html" class="company-item" style="text-decoration: none; color: inherit;">
-                        <img src="assets/images/brands/subaru.svg" alt="Subaru Logo" class="company-logo-img"
-                            style="height: 48px; width: auto; max-width: 80px; object-fit: contain; margin-bottom: 8px;"><span
-                            class="company-name">SUBARU</span>
-                    </a>
+                <!-- Hardware Brand 1 -->
+                <div class="company-item">
+                    <span class="company-name">CROWN PAINTS</span>
+                </div>
+                <!-- Hardware Brand 2 -->
+                <div class="company-item">
+                    <span class="company-name">BAMBURI CEMENT</span>
+                </div>
+                <!-- Hardware Brand 3 -->
+                <div class="company-item">
+                    <span class="company-name">MAKITA TOOLS</span>
+                </div>
+                <!-- Hardware Brand 4 -->
+                <div class="company-item">
+                    <span class="company-name">STANLEY</span>
+                </div>
+                <!-- Hardware Brand 5 -->
+                <div class="company-item">
+                    <span class="company-name">PPR FITTINGS</span>
+                </div>
+                <!-- Hardware Brand 6 -->
+                <div class="company-item">
+                    <span class="company-name">TUSKER MATTRESSES</span>
+                </div>
+                <!-- Repeat for scroll -->
+                <div class="company-item">
+                    <span class="company-name">CROWN PAINTS</span>
+                </div>
+                <div class="company-item">
+                    <span class="company-name">BAMBURI CEMENT</span>
+                </div>
+                <div class="company-item">
+                    <span class="company-name">MAKITA TOOLS</span>
+                </div>
+                <div class="company-item">
+                    <span class="company-name">STANLEY</span>
+                </div>
+                <div class="company-item">
+                    <span class="company-name">PPR FITTINGS</span>
                 </div>
             </div>
         </div>
@@ -317,17 +294,13 @@
                 <div class="footer-grid">
                     <!-- Brand -->
                     <div class="footer-col footer-brand">
-                        <p
-                            style="font-family:Outfit,Inter,sans-serif;font-size:1.1rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#FFD700;margin:0 0 8px 0;text-shadow:0 2px 8px rgba(0,0,0,0.4);">
-                            NJAWAMU Hardware</p>
-                        <a href="index.html" style="display:inline-block;margin-bottom:12px;">
-                            <img src="assets/images/logo.png" alt="NJAWAMU Hardware"
-                                style="height:110px;width:auto;filter:drop-shadow(0 0 8px rgba(255,255,255,0.5));">
-                        </a>
-                        <p class="footer-motto">"Building for the future"</p>
+                        <h2>
+                            <i class="fas fa-car-side" style="color: var(--accent-color);"></i>
+                            NJAWAMU Hardware
+                        </h2>
                         <p class="footer-desc">
-                            Your trusted partner for genuine auto spares and accessories.
-                            Quality you can drive on.
+                            Your trusted partner for quality hardware, paints, plumbing, and electrical supplies.
+                            Building Kenya together.
                         </p>
                         <div class="footer-socials">
                             <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-link"
@@ -346,8 +319,8 @@
                         <ul class="footer-links">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="catalog.html">Full Catalog</a></li>
-                            <li><a href="#deals">Hot Deals</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="index.html#featured-products">Featured</a></li>
+                            <li><a href="catalog.html?category=Paints">Paints</a></li>
                             <li><a href="https://wa.me/254726822382" target="_blank">Contact Support</a></li>
                         </ul>
                     </div>
@@ -356,11 +329,11 @@
                     <div class="footer-col">
                         <h3>Categories</h3>
                         <ul class="footer-links">
-                            <li><a href="catalog.html?category=body">Body Parts</a></li>
-                            <li><a href="catalog.html?category=engine">Engine Parts</a></li>
-                            <li><a href="catalog.html?category=suspension">Suspension</a></li>
-                            <li><a href="catalog.html?category=lighting">Car Lighting</a></li>
-                            <li><a href="catalog.html?category=service">Service & Maintenance</a></li>
+                            <li><a href="catalog.html?category=Paints">Paints</a></li>
+                            <li><a href="catalog.html?category=Electricals">Electricals</a></li>
+                            <li><a href="catalog.html?category=Plumbing">Plumbing</a></li>
+                            <li><a href="catalog.html?category=Iron%20Sheets">Iron Sheets</a></li>
+                            <li><a href="catalog.html?category=Building%20Materials">Building Materials</a></li>
                         </ul>
                     </div>
 
@@ -372,7 +345,7 @@
                                 <i class="fas fa-map-marker-alt contact-icon"></i>
                                 <div class="contact-text">
                                     <span>Location</span>
-                                    <p>Banana Karuri area, Kiambu</p>
+                                    <p>MSP PLAZA Room G14<br>Kirinyaga Road, Nairobi</p>
                                 </div>
                             </li>
                             <li>
@@ -394,20 +367,9 @@
                 </div>
             </div>
 
-            <!-- Google Maps — MSP Plaza Location -->
-            <div
-                style="width:100%;margin:24px 0 0 0;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
-                <p
-                    style="font-family:Outfit,sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.5);text-transform:uppercase;margin:0 0 8px 0;">
-                    📍 Find Us</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.822756420998!2d36.82323007573033!3d-1.279984398707831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1100386fdc9d%3A0xdb804be92cb64fa4!2sMSP%20Plaza!5e0!3m2!1sen!2ske!4v1773216471776!5m2!1sen!2ske"
-                    width="100%" height="240" style="border:0;display:block;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" title="MSP Plaza, Kirinyaga Road, Nairobi"></iframe>
-            </div>
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
-                    <p class="copyright">&copy; 2026 NJAWAMU Hardware. All Rights Reserved.</p>
+                    <p class="copyright">&copy; 2024 NJAWAMU Hardware. All Rights Reserved.</p>
                     <div class="footer-legal">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

@@ -510,33 +510,6 @@
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
 }
 
-.pd-btn-call {
-    height: 50px;
-    padding: 0 20px;
-    border-radius: 12px;
-    background: #e74c3c;
-    color: white;
-    border: none;
-    font-size: 0.85rem;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    transition: all 0.2s;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.pd-btn-call:hover {
-    background: #c0392b;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.35);
-}
-
 .pd-btn-wa i {
     font-size: 1.1rem;
 }
@@ -662,13 +635,6 @@
 .pd-sticky-wa {
     background: #25D366;
     color: white;
-    text-decoration: none;
-}
-
-.pd-sticky-call {
-    background: #e74c3c;
-    color: white;
-    text-decoration: none;
 }
 
 /* ================================================================

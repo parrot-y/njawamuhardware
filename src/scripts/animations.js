@@ -1,5 +1,5 @@
 /**
- * Graceful Motion — Animation Layer v2
+ * NJAWAMU Hardware — Animation Layer v2
  * Scroll-triggered reveals + dynamic card stagger (works on all pages)
  */
 

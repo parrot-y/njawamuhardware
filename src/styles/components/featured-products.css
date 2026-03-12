@@ -67,26 +67,64 @@
     transform: scale(1.1) translateY(-10px);
 }
 
-/* View overlay on hover (mirroring catalog card) */
-.featured-img-wrap::after {
-    content: 'View Details →';
+/* Featured Card Overlay (Buttons) */
+.featured-card-overlay {
     position: absolute;
-    bottom: -40px;
+    bottom: -60px;
     left: 0;
     width: 100%;
-    text-align: center;
-    padding: 12px;
-    background: rgba(255, 255, 255, 0.92);
-    backdrop-filter: blur(10px);
-    font-size: 0.8rem;
-    font-weight: 800;
-    color: var(--accent-primary, #B8860B);
-    letter-spacing: 0.5px;
-    transition: bottom 0.3s ease;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    transition: bottom 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 10;
 }
 
-.featured-card:hover .featured-img-wrap::after {
+.featured-card:hover .featured-card-overlay {
     bottom: 0;
+}
+
+.featured-card-overlay .btn-view,
+.featured-card-overlay .add-to-cart-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fff;
+    color: var(--text-primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.featured-card-overlay .btn-view:hover,
+.featured-card-overlay .add-to-cart-btn:hover {
+    background: var(--accent-primary);
+    color: #fff;
+    transform: translateY(-3px) scale(1.1);
+}
+
+/* Price & Category Styling */
+.product-category {
+    font-size: 0.75rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary) !important;
+    font-weight: 700;
+    margin-bottom: 4px !important;
+}
+
+.product-price {
+    font-size: 1.1rem !important;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-top: auto;
 }
 
 .featured-info {
