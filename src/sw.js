@@ -1,4 +1,4 @@
-const CACHE_NAME = 'renovyte-v2';
+const CACHE_NAME = 'NJAWAMU-v2';
 /**
  * SERVICE WORKER KILL SWITCH
  * This file replaces the previous caching logic to destroy stale caches

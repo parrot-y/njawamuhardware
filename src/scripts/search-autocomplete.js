@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            if (!window.RenovyteProducts) return;
+            if (!window.NJAWAMUProducts) return;
 
-            const matches = window.RenovyteProducts.filter(p =>
+            const matches = window.NJAWAMUProducts.filter(p =>
                 p.name.toLowerCase().includes(query) ||
                 p.subcategory?.toLowerCase().includes(query) ||
                 p.category.toLowerCase().includes(query)

@@ -237,14 +237,8 @@ class CategorySidebar {
     }
 
     _bindTriggers() {
-        // Desktop: categories button
-        document.getElementById('categoriesBtn')?.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.toggle();
-        });
-
-        // Mobile: hamburger
-        document.getElementById('mobileMenuBtn')?.addEventListener('click', (e) => {
+        // Redesigned Menu Button (Desktop & Mobile)
+        document.getElementById('menuToggleBtn')?.addEventListener('click', (e) => {
             e.stopPropagation();
             this.toggle();
         });

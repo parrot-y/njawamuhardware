@@ -1,10 +1,10 @@
 {
-    "name": "Graceful Motion Autotech",
-    "short_name": "Autotech",
+    "name": "NJAWAMU Hardware",
+    "short_name": "NJAWAMU",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#1a1a1a",
-    "theme_color": "#786C3B",
+    "background_color": "#ffffff",
+    "theme_color": "#FFD700",
     "icons": [
         {
             "src": "assets/images/hero/hero_turbo.webp",

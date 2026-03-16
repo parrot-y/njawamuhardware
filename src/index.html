@@ -77,43 +77,38 @@
 
 <body>
 
-    <!-- ===== NEW HEADER TOP BAR ===== -->
-    <div class="header-top-bar">
-
-        <!-- Logo Column -->
-        <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
-            <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
-        </a>
-
-        <!-- Animated Banner Column -->
-        <div class="header-banner-col" id="headerBanner">
-            <div id="headerBannerInner">
-                <div class="banner-text-group">
-                    <span class="banner-prefix">Get the best</span>
-                    <span class="banner-part-name" id="bannerPartName">PAINTS & COATINGS</span>
+    <!-- ===== YELLOW TOP CONTACT BAR ===== -->
+    <div class="contact-bar">
+        <div class="container">
+            <div class="contact-bar-content">
+                <div class="contact-info">
+                    <a href="tel:+254726822382" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+254 726 822 382</span>
+                    </a>
+                    <a href="mailto:info@njawamuhardware.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@njawamuhardware.com</span>
+                    </a>
+                    <span class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>Kirinyaga Road, Nairobi</span>
+                    </span>
                 </div>
-
-                <div class="banner-img-wrap">
-                    <img id="bannerPartImg" src="assets/images/products/hardware/paints.jpg" alt="Paints"
-                        loading="eager">
+                <div class="social-links">
+                    <a href="https://wa.me/254726822382" class="social-icon" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-icon" target="_blank"
+                        rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
-
-                <span class="banner-specials-tag">March Specials</span>
             </div>
         </div>
-
-        <div class="header-contacts-col">
-            <a href="tel:+254726822382" class="hdr-contact-btn phone" title="Call Us">
-                <i class="fas fa-phone"></i>
-            </a>
-            <a href="https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products."
-                class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank" rel="noopener"><i
-                    class="fab fa-whatsapp"></i></a>
-            <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-
     </div>
 
     <!-- Hero Section (contains navbar overlay) -->
@@ -123,19 +118,21 @@
         <nav class="navbar" id="navbar">
             <div class="container">
                 <div class="nav-content-v2">
-                    <!-- Categories Button (mega-menu hover stays) -->
-                    <div class="categories-menu" id="headerCategories">
-                        <button class="categories-btn-v2" id="categoriesBtn">
-                            <i class="fas fa-bars"></i>
-                            <span>CATEGORIES</span>
-                        </button>
+                    <!-- Logo in Nav -->
+                    <a href="index.html" class="nav-logo" aria-label="NJAWAMU Hardware Home">
+                        <img src="assets/images/logo.png" alt="NJAWAMU Hardware">
+                    </a>
 
-                        <!-- Mega Menu Dropdown -->
-                        <div class="mega-menu" id="categoriesDropdown">
-                            <div class="mega-menu-content">
-                                <!-- Dynamic content via categories-menu.js -->
+                    <!-- Redesigned Menu Button -->
+                    <div class="nav-menu-wrapper">
+                        <button class="menu-toggle-btn" id="menuToggleBtn">
+                            <span class="btn-text">EXPLORE</span>
+                            <div class="hamburger-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
-                        </div>
+                        </button>
                     </div>
 
                     <!-- Inline Category Links -->
@@ -145,15 +142,13 @@
                         <a href="catalog.html?category=Plumbing" class="nav-cat-link">Plumbing Fixtures</a>
                         <a href="catalog.html?category=Hardware%20%26%20Fasteners" class="nav-cat-link">Hardware &
                             Fasteners</a>
-                        <a href="catalog.html?category=Building%20Materials" class="nav-cat-link">Building Materials</a>
-                        <a href="catalog.html?category=Iron%20Sheets" class="nav-cat-link">Iron Sheets</a>
                     </div>
 
                     <!-- Search Bar V2 -->
                     <div class="nav-search-v2">
                         <form action="catalog.html" method="GET" class="search-form-v2">
-                            <input type="text" name="search" class="search-input-v2"
-                                placeholder="Search by part name or category..." autocomplete="off">
+                            <input type="text" name="search" class="search-input-v2" placeholder="Search hardware..."
+                                autocomplete="off">
                             <button type="submit" class="search-submit-v2"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
@@ -164,60 +159,51 @@
                             <i class="fas fa-shopping-cart"></i>
                             <span class="cart-badge">0</span>
                         </button>
-                        <button class="mobile-hamburger" id="mobileMenuBtn" aria-label="Menu">
-                            <i class="fas fa-bars"></i>
-                        </button>
                     </div>
-                </div>
-            </div>
-
-            <!-- Mobile slide-out menu -->
-            <div class="nav-links-v2" id="navLinks">
-                <a href="catalog.html?category=Paints" class="nav-link-v2">Paints</a>
-                <a href="catalog.html?category=Electricals" class="nav-link-v2">Electrical Supplies</a>
-                <a href="catalog.html?category=Plumbing" class="nav-link-v2">Plumbing Fixtures</a>
-                <a href="catalog.html?category=Hardware%20%26%20Fasteners" class="nav-link-v2">Hardware & Fasteners</a>
-                <a href="catalog.html?category=Building%20Materials" class="nav-link-v2">Building Materials</a>
-                <a href="catalog.html?category=Iron%20Sheets" class="nav-link-v2">Iron Sheets</a>
-                <a href="catalog.html" class="nav-link-v2">All Catalog</a>
-                <div class="mobile-contact-info">
-                    <a href="tel:+254726822382" class="nav-link-v2">
-                        <i class="fas fa-phone"></i> +254 726 822 382
-                    </a>
-                    <a href="mailto:info@njawamuhardware.com" class="nav-link-v2">
-                        <i class="fas fa-envelope"></i> info@njawamuhardware.com
-                    </a>
                 </div>
             </div>
         </nav>
 
-        <!-- Background Image Slides -->
-        <div class="hero-slides" id="heroSlides">
-            <div class="hero-bg-slide active"
-                style="background-image: url('assets/images/hero/hardware-hero-1.png'); background-size: cover; background-position: center;">
-            </div>
-            <div class="hero-bg-slide"
-                style="background-image: url('assets/images/hero/hardware-hero-2.png'); background-size: cover; background-position: center;">
+        <!-- Mobile slide-out menu -->
+        <div class="nav-links-v2" id="navLinks">
+            <a href="catalog.html?category=Paints" class="nav-link-v2">Paints</a>
+            <a href="catalog.html?category=Electricals" class="nav-link-v2">Electrical Supplies</a>
+            <a href="catalog.html?category=Plumbing" class="nav-link-v2">Plumbing Fixtures</a>
+            <a href="catalog.html?category=Hardware%20%26%20Fasteners" class="nav-link-v2">Hardware & Fasteners</a>
+            <a href="catalog.html?category=Building%20Materials" class="nav-link-v2">Building Materials</a>
+            <a href="catalog.html?category=Iron%20Sheets" class="nav-link-v2">Iron Sheets</a>
+            <a href="catalog.html" class="nav-link-v2">All Catalog</a>
+            <div class="mobile-contact-info">
+                <a href="tel:+254726822382" class="nav-link-v2">
+                    <i class="fas fa-phone"></i> +254 726 822 382
+                </a>
+                <a href="mailto:info@njawamuhardware.com" class="nav-link-v2">
+                    <i class="fas fa-envelope"></i> info@njawamuhardware.com
+                </a>
             </div>
         </div>
 
-        <!-- Dark gradient overlay for text readability -->
+        <!-- Image Slides (Replacing Videos) -->
+        <div class="hero-slides" id="heroSlides">
+            <div class="hero-bg-slide active" style="background-image: url('assets/images/hero/hero-1.jpg');"></div>
+            <div class="hero-bg-slide" style="background-image: url('assets/images/hero/hero-2.jpg');"></div>
+            <div class="hero-bg-slide" style="background-image: url('assets/images/hero/hero-3.jpg');"></div>
+            <div class="hero-bg-slide" style="background-image: url('assets/images/hero/hero-4.jpg');"></div>
+            <div class="hero-bg-slide" style="background-image: url('assets/images/hero/hero-5.jpg');"></div>
+        </div>
+
+        <!-- Dark gradient overlay -->
         <div class="hero-gradient-overlay"></div>
 
         <!-- Bottom-left text overlay -->
         <div class="hero-bottom-content">
-            <h1 class="hero-title-je">Building<br>Kenya Together</h1>
-            <p class="hero-stats-line">QUALITY HARDWARE &bull; 4,000+ PRODUCTS &bull; TRUSTED BRANDS &bull; NATIONWIDE
-                DELIVERY</p>
-            <a href="catalog.html" class="hero-cta-btn">SHOP NOW</a>
+            <h1 class="hero-title-je">NJAWAMU<br>HARDWARE</h1>
+            <p class="hero-stats-line">QUALITY HARDWARE &bull; 15,000+ PRODUCTS &bull; TRUSTED BRANDS</p>
+            <a href="catalog.html" class="hero-cta-btn">VIEW PRODUCTS</a>
         </div>
 
-        <!-- Bottom-right pagination -->
+        <!-- Bottom-right arrows (Dots removed) -->
         <div class="hero-pagination">
-            <div class="hero-dots" id="heroDots">
-                <span class="hero-dot active" data-slide="0"></span>
-                <span class="hero-dot" data-slide="1"></span>
-            </div>
             <div class="hero-arrows">
                 <button class="hero-arrow" id="heroPrev" aria-label="Previous slide">
                     <i class="fas fa-chevron-left"></i>
@@ -523,7 +509,8 @@
                     </h2>
                     <p class="footer-desc">
                         Quality hardware, paints, plumbing, and electrical supplies. Building Kenya together.<br>
-                        <strong>Location:</strong> MSP PLAZA, Kirinyaga Road, Nairobi, Room G14.
+                        <strong>Location:</strong> MSP PLAZA, Kirinyaga Road, Nairobi, Room G14.<br>
+                        <strong>Phone:</strong> +254 726 822 382
                     </p>
                     <div class="footer-socials">
                         <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-link"
@@ -558,14 +545,15 @@
                     </ul>
                 </div>
 
-                <!-- Newsletter -->
-                <div class="footer-col footer-newsletter">
-                    <h3>NEWSLETTER</h3>
-                    <p>Subscribe for exclusive hardware updates and building tips.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Email Address">
-                        <button type="submit" class="btn btn-primary">JOIN</button>
-                    </form>
+                <!-- Location Map -->
+                <div class="footer-col footer-map">
+                    <h3>OUR LOCATION</h3>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!3m2!1ssw!2ske!4v1773662456607!5m2!1ssw!2ske!6m8!1m7!1s9Ii7CvGUrBY0bUE-5sXZkw!2m2!1d-1.172710393534752!2d36.75839469221693!3f291.99887893921317!4f3.659794330985349!5f0.7820865974627469"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
 

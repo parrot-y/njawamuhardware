@@ -61,10 +61,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch('assets/data/products.json');
             if (!response.ok) throw new Error('Failed to load products');
             allProducts = await response.json();
-            window.RenovyteProducts = allProducts;
+            window.NJAWAMUProducts = allProducts;
         } catch (error) {
             console.error('Error fetching products:', error);
-            allProducts = window.RenovyteProducts || [];
+            allProducts = window.NJAWAMUProducts || [];
         }
     }
 

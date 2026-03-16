@@ -3,7 +3,7 @@
  * Consolidated and Deduplicated
  */
 
-window.RenovyteProducts = [
+window.NJAWAMUProducts = [
   {
     "id": "hw-0018",
     "name": "\u2014",

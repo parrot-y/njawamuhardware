@@ -66,8 +66,8 @@ function initCartLogic() {
         let item = itemOrId;
 
         // If only an ID is passed, look up the product in global database
-        if (typeof itemOrId === 'string' && window.RenovyteProducts) {
-            const product = window.RenovyteProducts.find(p => p.id === itemOrId);
+        if (typeof itemOrId === 'string' && window.NJAWAMUProducts) {
+            const product = window.NJAWAMUProducts.find(p => p.id === itemOrId);
             if (product) {
                 item = {
                     id: product.id,

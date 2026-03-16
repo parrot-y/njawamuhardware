@@ -3,13 +3,15 @@
    ================================ */
 
 .contact-bar {
-    background: #786C3B;
-    /* Mustard Gold */
-    color: var(--light);
-    padding: 8px 0;
-    font-size: 0.8125rem;
+    background: #FFD700;
+    /* Vibrant Yellow */
+    color: #1a1a1a;
+    padding: 10px 0;
+    font-size: 0.875rem;
+    font-weight: 600;
     position: relative;
     z-index: 100;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .contact-bar-content {
@@ -29,9 +31,9 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--light);
+    color: #1a1a1a;
     transition: all var(--transition-base);
-    opacity: 0.9;
+    text-decoration: none;
 }
 
 .contact-item:hover {
