@@ -55,43 +55,89 @@
 
 <body>
 
-    <!-- ===== HEADER TOP BAR (identical to all pages) ===== -->
-    <div class="header-top-bar">
-        <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
-            <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
-        </a>
-        <div class="header-banner-col" id="headerBanner">
-            <div id="headerBannerInner">
-                <div class="banner-text-group">
-                    <span class="banner-prefix">Get the best</span>
-                    <span class="banner-part-name" id="bannerPartName">PAINTS & COATINGS</span>
+    <!-- ===== SITE HEADER (Sticky) ===== -->
+    <header class="site-header" id="siteHeader">
+        <!-- Yellow Contact Bar -->
+        <div class="contact-bar">
+            <div class="container">
+                <div class="contact-bar-content">
+                    <div class="contact-info">
+                        <a href="tel:+254726822382" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+254 726 822 382</span>
+                        </a>
+                        <a href="mailto:info@njawamuhardware.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@njawamuhardware.com</span>
+                        </a>
+                        <span class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Banana along Banana Raini Road, opposite Family Bank</span>
+                        </span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/254726822382" class="social-icon" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-icon"
+                            target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="banner-img-wrap">
-                    <img id="bannerPartImg" src="assets/images/products/hardware/paints.jpg" alt="Paints"
-                        loading="eager">
-                </div>
-                <span class="banner-specials-tag">March Specials</span>
             </div>
         </div>
-        <div class="header-contacts-col">
-            <a href="tel:+254726822382" class="hdr-contact-btn phone" title="Call Us"><i class="fas fa-phone"></i></a>
-            <a href="https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products."
-                class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank" rel="noopener"><i
-                    class="fab fa-whatsapp"></i></a>
-            <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us"><i
-                    class="fas fa-envelope"></i></a>
-        </div>
-        <!-- Actions Column (Cart & Mobile Menu) -->
-        <div class="header-actions-col">
-            <button class="hdr-action-btn nav-icon-btn-v2 cart-btn" aria-label="Cart">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="cart-badge">0</span>
-            </button>
-            <button class="mobile-hamburger" id="nav-hamburger" aria-label="Menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-content-v2">
+                    <!-- Logo in Nav -->
+                    <a href="index.html" class="nav-logo" aria-label="NJAWAMU Hardware Home">
+                        <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
+                    </a>
+
+                    <!-- Nav Category Links (Desktop Only) -->
+                    <div class="nav-cat-links">
+                        <a href="catalog.html?category=PIPES" class="nav-cat-link">PIPES</a>
+                        <a href="catalog.html?category=ELECTRICALS" class="nav-cat-link">ELECTRICAL</a>
+                        <a href="catalog.html?category=BUILDING MATERIALS" class="nav-cat-link">BUILDING</a>
+                        <a href="catalog.html?category=PAINTS" class="nav-cat-link">PAINTS</a>
+                        <a href="catalog.html?category=TOOLS" class="nav-cat-link">TOOLS</a>
+                    </div>
+
+                    <!-- Search (Desktop Only) -->
+                    <div class="nav-search-v2">
+                        <input type="text" placeholder="Search product catalogs..." id="navSearchInput">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="nav-actions-v2">
+                        <!-- Redesigned Menu Button -->
+                        <div class="nav-menu-wrapper">
+                            <button class="menu-toggle-btn" id="menuToggleBtn">
+                                <span class="btn-text">EXPLORE</span>
+                                <div class="hamburger-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <button class="nav-icon-btn-v2 cart-btn" aria-label="Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
 
@@ -159,18 +205,22 @@
                 <p>WE SOURCE PRODUCTS FROM ALL MAJOR BRANDS</p>
             </div>
             <div class="companies-viewport">
-                <!-- Hardware Brands -->
-                <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
-                <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
-                <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
-                <div class="company-item"><span class="company-name">STANLEY</span></div>
-                <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
-                <!-- Repeat -->
-                <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
-                <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
-                <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
-                <div class="company-item"><span class="company-name">STANLEY</span></div>
-                <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
+                <div class="companies-track">
+                    <!-- Hardware Brands -->
+                    <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                    <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
+                    <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
+                    <div class="company-item"><span class="company-name">STANLEY</span></div>
+                    <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
+                    <!-- Repeat for infinite scroll effect -->
+                    <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                    <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
+                    <div class="company-item"><span class="company-name">MAKITA TOOLS</span></div>
+                    <div class="company-item"><span class="company-name">STANLEY</span></div>
+                    <div class="company-item"><span class="company-name">PPR FITTINGS</span></div>
+                    <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                    <div class="company-item"><span class="company-name">BAMBURI CEMENT</span></div>
+                </div>
             </div>
         </div>
     </section>
@@ -181,32 +231,50 @@
             <div class="footer-grid">
                 <div class="footer-col footer-brand">
                     <h2 class="logo"><i class="fas fa-screwdriver-wrench"></i><span>NJAWAMU Hardware</span></h2>
-                    <p class="footer-desc">Your trusted partner for quality hardware, paints, plumbing, and electrical
-                        supplies. Building Kenya together.</p>
+                    <p class="footer-desc">Building Kenya together. Your trusted partner for quality hardware and
+                        building materials.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-icon"
+                            aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/254726822382" class="social-icon" aria-label="WhatsApp"
+                            target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
                 </div>
+
                 <div class="footer-col">
                     <h4 class="footer-heading">Quick Links</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="catalog.html">Shop All</a></li>
-                        <li><a href="catalog.html?category=Paints">Paints</a></li>
-                        <li><a href="catalog.html?category=Electricals">Electricals</a></li>
-                        <li><a href="catalog.html?category=Plumbing">Plumbing</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="catalog.html?category=PIPES">Pipes & Fittings</a></li>
+                        <li><a href="catalog.html?category=PAINTS">Premium Paints</a></li>
                     </ul>
                 </div>
+
                 <div class="footer-col">
                     <h4 class="footer-heading">Contact Us</h4>
                     <ul class="footer-links">
                         <li><a href="tel:+254726822382"><i class="fas fa-phone fa-xs"></i> +254 726 822 382</a></li>
-                        <li><a href="https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products."
-                                target="_blank"><i class="fab fa-whatsapp fa-xs"></i>
+                        <li><a href="mailto:info@njawamuhardware.com"><i class="fas fa-envelope fa-xs"></i>
+                                info@njawamuhardware.com</a></li>
+                        <li><a href="https://wa.me/254726822382" target="_blank"><i class="fab fa-whatsapp fa-xs"></i>
                                 WhatsApp Order</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products."
-                                target="_blank">Contact Support</a></li>
                     </ul>
                 </div>
+
+                <!-- Location Map -->
+                <div class="footer-col footer-map">
+                    <h3>OUR LOCATION</h3>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.772591873138!2d36.745!3d-1.166!2m3!1f0!2f0!3f0!3m2!i1024!2i768!4f13.1!3m3!1m2!1s0x182f23cf5c8f5555%3A0x6e5e8e8e8e8e8e8e!2sFamily%20Bank%20-%20Banana%20Branch!5e0!3m2!1sen!2ske!4v1710580000000!5m2!1sen!2ske"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
+
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
                     <p class="copyright">&copy; 2024 NJAWAMU Hardware. All Rights Reserved.</p>

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentIndex = 0;
     let intervalId;
-    const INTERVAL = 2500; // Accelerated to 2.5 seconds per slide
+    const INTERVAL = 2000; // Accelerated to 2.0 seconds per slide
 
     function handleVideoState(slide, shouldPlay) {
         const video = slide.querySelector('video');

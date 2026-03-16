@@ -58,53 +58,92 @@
 
 <body>
 
-    <!-- ===== HEADER TOP BAR ===== -->
-    <div class="header-top-bar">
-        <!-- Logo Column -->
-        <a href="index.html" class="header-logo-col" aria-label="NJAWAMU Hardware Home">
-            <img src="assets/images/logo.png" alt="NJAWAMU Hardware" loading="eager">
-        </a>
-
-        <!-- Animated Banner Column -->
-        <div class="header-banner-col" id="headerBanner">
-            <div id="headerBannerInner">
-                <div class="banner-text-group">
-                    <span class="banner-prefix">Get the best</span>
-                    <span class="banner-part-name" id="bannerPartName">PAINTS & COATINGS</span>
+    <!-- ===== SITE HEADER (Sticky) ===== -->
+    <header class="site-header" id="siteHeader">
+        <!-- Yellow Contact Bar -->
+        <div class="contact-bar">
+            <div class="container">
+                <div class="contact-bar-content">
+                    <div class="contact-info">
+                        <a href="tel:+254726822382" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+254 726 822 382</span>
+                        </a>
+                        <a href="mailto:info@njawamuhardware.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@njawamuhardware.com</span>
+                        </a>
+                        <span class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Banana along Banana Raini Road, opposite Family Bank</span>
+                        </span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/254726822382" class="social-icon" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-icon"
+                            target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="banner-img-wrap">
-                    <img id="bannerPartImg" src="assets/images/products/hardware/paints.jpg" alt="Paints"
-                        loading="lazy">
-                </div>
-                <span class="banner-specials-tag">March Specials</span>
             </div>
         </div>
 
-        <!-- Contact Icons Column -->
-        <div class="header-contacts-col">
-            <a href="tel:+254726822382" class="hdr-contact-btn phone" title="Call Us">
-                <i class="fas fa-phone"></i>
-            </a>
-            <a href="https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products."
-                class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank" rel="noopener">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-            <a href="mailto:info@njawamuhardware.com" class="hdr-contact-btn email" title="Email Us">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
+        <!-- Navigation Bar -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-content-v2">
+                    <!-- Logo in Nav -->
+                    <a href="index.html" class="nav-logo" aria-label="NJAWAMU Hardware Home">
+                        <img src="assets/images/logo.png" alt="NJAWAMU Hardware">
+                    </a>
 
-        <!-- Actions Column (Cart & Mobile Menu) -->
-        <div class="header-actions-col">
-            <button class="hdr-action-btn nav-icon-btn-v2 cart-btn" aria-label="Cart">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="cart-badge">0</span>
-            </button>
-            <button class="mobile-hamburger" id="catalogFilterBtn" aria-label="Filters">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </div>
+                    <!-- Redesigned Menu Button -->
+                    <div class="nav-menu-wrapper">
+                        <button class="menu-toggle-btn" id="menuToggleBtn">
+                            <span class="btn-text">EXPLORE</span>
+                            <div class="hamburger-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- Inline Category Links -->
+                    <div class="nav-cat-links" id="navCatLinks">
+                        <a href="catalog.html?category=Paints" class="nav-cat-link">Paints</a>
+                        <a href="catalog.html?category=Electricals" class="nav-cat-link">Electrical Supplies</a>
+                        <a href="catalog.html?category=Plumbing" class="nav-cat-link">Plumbing Fixtures</a>
+                        <a href="catalog.html?category=Hardware%20%26%20Fasteners" class="nav-cat-link">Hardware &
+                            Fasteners</a>
+                    </div>
+
+                    <!-- Search Bar V2 -->
+                    <div class="nav-search-v2">
+                        <form action="catalog.html" method="GET" class="search-form-v2">
+                            <input type="text" name="search" class="search-input-v2" placeholder="Search hardware..."
+                                autocomplete="off">
+                            <button type="submit" class="search-submit-v2"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Right Actions -->
+                    <div class="nav-actions-v2">
+                        <button class="nav-icon-btn-v2 cart-btn" aria-label="Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- Mobile Filter Backdrop (for drawer) -->
     <div class="filter-backdrop" id="filterBackdrop"></div>
@@ -353,7 +392,7 @@
                                 <i class="fas fa-map-marker-alt contact-icon"></i>
                                 <div class="contact-text">
                                     <span>Location</span>
-                                    <p>MSP PLAZA Room G14<br>Kirinyaga Road, Nairobi</p>
+                                    <p>Banana along Banana Raini Road, opposite Family Bank</p>
                                 </div>
                             </li>
                             <li>

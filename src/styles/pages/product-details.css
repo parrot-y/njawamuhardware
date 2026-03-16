@@ -711,13 +711,13 @@
         display: flex;
     }
 
-    /* Related grid horizontal scroll on mobile */
+    /* Related grid horizontal scroll on mobile — Improved spacing and alignment */
     .pd-related .product-grid {
         display: flex;
         overflow-x: auto;
         gap: 16px;
-        padding: 8px 20px 20px;
-        margin: 0 -20px;
+        padding: 8px 16px 24px;
+        margin: 0;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
@@ -728,8 +728,13 @@
     }
 
     .pd-related .product-grid .product-card {
-        flex: 0 0 240px;
-        scroll-snap-align: start;
+        flex: 0 0 260px;
+        /* Slightly wider cards for better breathing room */
+        scroll-snap-align: center;
+        margin-bottom: 0;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     }
 
     .pd-breadcrumb .active {

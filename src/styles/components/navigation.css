@@ -61,25 +61,34 @@
    ================================ */
 
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 100;
-    padding: 0;
-    background: transparent;
-    border-bottom: none;
-    transition: background 0.3s ease, box-shadow 0.3s ease;
+    padding: 5px 0;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
 }
 
-/* Solid white navbar when scrolling past hero */
-.navbar.scrolled {
-    position: fixed;
-    top: 0;
-    background: #FFFFFF;
+/* Home page override: transparent navbar over hero */
+.home-page .site-header {
+    position: absolute;
+    background: transparent;
+    box-shadow: none;
+}
+
+.home-page .site-header.scrolled {
+    position: sticky;
+    background: #fff;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.home-page .navbar {
+    background: transparent;
+    border-bottom: none;
+}
+
+.home-page .site-header.scrolled .navbar {
+    background: #fff;
 }
 
 .navbar.scrolled .nav-logo img {
@@ -468,106 +477,161 @@
    ================================ */
 
 @media (max-width: 992px) {
-    .header-top-bar {
-        height: 64px;
-        overflow: hidden;
-        /* Prevent wide banner from pushing width */
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .nav-content-v2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
-        max-width: 100vw;
     }
 
-    .header-banner-col {
-        overflow: hidden;
-        max-width: 100%;
+    .nav-logo {
+        display: block;
+        flex: 0 0 auto;
     }
 
-    .header-logo-col {
-        flex: 0 0 110px;
-        padding: 4px 8px;
+    .nav-logo img {
+        height: 28px;
     }
 
-    .header-logo-col img {
-        height: 56px;
+    /* Hide cart on mobile header as it's in the bottom nav */
+    .nav-actions-v2 {
+        display: none !important;
     }
 
-    .banner-part-name {
-        font-size: 1.3rem;
+    /* Move menu toggle to far right */
+    .nav-menu-wrapper {
+        margin-left: auto;
     }
 
-    .banner-prefix {
-        font-size: 0.8rem;
+    .menu-toggle-btn {
+        padding: 8px;
+        background: transparent;
+        border: none;
+        gap: 0;
+        display: flex;
+        align-items: center;
     }
 
-    .banner-specials-tag {
+    .menu-toggle-btn .btn-text {
         display: none;
     }
 
-    #bannerPartImg {
-        height: 56px;
-        max-width: 120px;
-        /* Reset complex transforms for mobile stability */
-        transform: none !important;
-        filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+    .hamburger-icon {
+        width: 24px;
+        height: 18px;
+        margin: 0;
     }
 
-    #headerBannerInner {
-        padding: 0 16px;
+    .hamburger-icon span {
+        height: 2px;
+        background: #111;
     }
 
-    .header-contacts-col,
-    .header-actions-col {
-        flex: 0 0 auto;
-        padding: 0 8px;
-        gap: 6px;
-    }
-
-    .header-actions-col {
-        border-left: none;
-    }
-
-    .hdr-contact-btn,
-    .hdr-action-btn {
-        width: 30px;
-        height: 30px;
-        font-size: 0.8rem;
-    }
-
-    .mobile-hamburger {
-        display: flex;
-        padding: 0;
-        height: 30px;
-        width: 30px;
-        justify-content: center;
-    }
-
-    .nav-links-v2 {
-        display: flex;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 300px;
-        height: 100vh;
-        background: #FFFFFF;
-        flex-direction: column;
-        padding: 80px 24px;
-        transform: translateX(100%);
-        visibility: hidden;
-        /* Prevent horizontal overflow trigger */
-        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.4s;
-        z-index: 2000;
-        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
-        overflow-y: auto;
-    }
-
-    .nav-links-v2.active {
-        transform: translateX(0);
-        visibility: visible;
-    }
-
-    .mobile-contact-info {
-        display: flex;
+    .site-header.scrolled .hamburger-icon span {
+        background: #111;
     }
 }
+
+.header-top-bar {
+    height: 64px;
+    overflow: hidden;
+    /* Prevent wide banner from pushing width */
+    width: 100%;
+    max-width: 100vw;
+}
+
+.header-banner-col {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.header-logo-col {
+    flex: 0 0 110px;
+    padding: 4px 8px;
+}
+
+.header-logo-col img {
+    height: 56px;
+}
+
+.banner-part-name {
+    font-size: 1.3rem;
+}
+
+.banner-prefix {
+    font-size: 0.8rem;
+}
+
+.banner-specials-tag {
+    display: none;
+}
+
+#bannerPartImg {
+    height: 56px;
+    max-width: 120px;
+    /* Reset complex transforms for mobile stability */
+    transform: none !important;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+#headerBannerInner {
+    padding: 0 16px;
+}
+
+.header-contacts-col,
+.header-actions-col {
+    flex: 0 0 auto;
+    padding: 0 8px;
+    gap: 6px;
+}
+
+.header-actions-col {
+    border-left: none;
+}
+
+.hdr-contact-btn,
+.hdr-action-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+}
+
+.mobile-hamburger {
+    display: flex;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+}
+
+.nav-links-v2 {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: #FFFFFF;
+    flex-direction: column;
+    padding: 80px 24px;
+    transform: translateX(100%);
+    visibility: hidden;
+    /* Prevent horizontal overflow trigger */
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.4s;
+    z-index: 2000;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+}
+
+.nav-links-v2.active {
+    transform: translateX(0);
+    visibility: visible;
+}
+
 
 @media (max-width: 992px) {
 

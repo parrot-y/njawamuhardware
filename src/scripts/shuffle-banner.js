@@ -17,7 +17,7 @@ class ShuffleBanner {
             { name: 'HARDWARE & FASTENERS', img: 'assets/images/products/hardware/fasteners.jpg', alt: 'Hardware & Fasteners' },
             { name: 'IRON SHEETS', img: 'assets/images/products/hardware/iron_sheets.jpg', alt: 'Iron Sheets' }
         ];
-        this.interval = config.interval || 3500;
+        this.interval = config.interval || 2500;
         this.current = 0;
 
         this.init();

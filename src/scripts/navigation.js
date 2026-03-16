@@ -68,9 +68,14 @@ class Navigation {
     }
 
     handleScroll() {
+        const header = document.getElementById('siteHeader');
+        if (!header) return;
+
         if (window.scrollY > 50) {
+            header.classList.add('scrolled');
             this.navbar.classList.add('scrolled');
         } else {
+            header.classList.remove('scrolled');
             this.navbar.classList.remove('scrolled');
         }
     }

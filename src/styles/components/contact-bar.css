@@ -2,16 +2,25 @@
    Top Contact Bar
    ================================ */
 
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .contact-bar {
     background: #FFD700;
     /* Vibrant Yellow */
     color: #1a1a1a;
-    padding: 10px 0;
-    font-size: 0.875rem;
-    font-weight: 600;
+    padding: 8px 0;
+    font-size: 0.85rem;
+    font-weight: 700;
     position: relative;
-    z-index: 100;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    z-index: 101;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .contact-bar-content {
@@ -77,32 +86,7 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .contact-bar {
-        padding: 6px 0;
-    }
-
-    .contact-bar-content {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .contact-info {
-        flex-direction: column;
-        gap: 8px;
-        text-align: center;
-        font-size: 0.8125rem;
-    }
-
-    .contact-item span {
-        display: inline;
-    }
-
-    .social-links {
-        gap: 10px;
-    }
-
-    .social-icon {
-        width: 36px;
-        height: 36px;
+        display: none !important;
     }
 }
 

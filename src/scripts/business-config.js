@@ -9,7 +9,7 @@ window.BusinessConfig = {
     whatsapp: '254726822382',
     email: 'info@njawamuhardware.com',
     businessName: 'NJAWAMU Hardware',
-    location: 'MSP PLAZA Room G14, Kirinyaga Road, Nairobi',
+    location: 'Banana along Banana Raini Road, opposite Family Bank',
     generalInquiryMsg: "Hello NJAWAMU Hardware! 👋 I have a general inquiry about your products.",
 
     /** Validate WhatsApp number: digits only, 10–15 digits */
