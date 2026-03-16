@@ -65,7 +65,7 @@ class CategorySidebar {
         if (!document.querySelector('.fab-whatsapp')) {
             const fab = document.createElement('a');
             fab.className = 'fab-whatsapp';
-            fab.href = window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382';
+            fab.href = window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products.';
             fab.target = '_blank';
             fab.rel = 'noopener noreferrer';
             fab.setAttribute('aria-label', 'Chat on WhatsApp');
@@ -153,7 +153,7 @@ class CategorySidebar {
             <a href="${window.BusinessConfig ? window.BusinessConfig.telLink() : 'tel:+254726822382'}" class="csb-footer-link">
                 <i class="fas fa-phone"></i> Call Us
             </a>
-            <a href="${window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382'}" class="csb-footer-link csb-whatsapp">
+            <a href="${window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382?text=Hello%20NJAWAMU%20Hardware!%20%F0%9F%91%8B%20I%20have%20a%20general%20inquiry%20about%20your%20products.'}" class="csb-footer-link csb-whatsapp">
                 <i class="fab fa-whatsapp"></i> WhatsApp
             </a>
         </div>`;

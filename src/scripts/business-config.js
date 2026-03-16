@@ -10,6 +10,7 @@ window.BusinessConfig = {
     email: 'info@njawamuhardware.com',
     businessName: 'NJAWAMU Hardware',
     location: 'MSP PLAZA Room G14, Kirinyaga Road, Nairobi',
+    generalInquiryMsg: "Hello NJAWAMU Hardware! 👋 I have a general inquiry about your products.",
 
     /** Validate WhatsApp number: digits only, 10–15 digits */
     isValidWhatsApp(number) {
@@ -24,7 +25,8 @@ window.BusinessConfig = {
             this._showError('Unable to connect to WhatsApp. Please call us directly at ' + this.phoneDisplay);
             return false;
         }
-        const url = `https://wa.me/${num}?text=${encodeURIComponent(message)}`;
+        const text = message || this.generalInquiryMsg;
+        const url = `https://wa.me/${num}?text=${encodeURIComponent(text)}`;
         window.open(url, '_blank');
         return true;
     },
@@ -39,9 +41,10 @@ window.BusinessConfig = {
         return `mailto:${this.email}`;
     },
 
-    /** Build wa.me link (without message) */
-    whatsappLink() {
-        return `https://wa.me/${this.whatsapp}`;
+    /** Build wa.me link (with optional message) */
+    whatsappLink(msg) {
+        const text = msg || this.generalInquiryMsg;
+        return `https://wa.me/${this.whatsapp}?text=${encodeURIComponent(text)}`;
     },
 
     /** Show a user-facing error toast */
