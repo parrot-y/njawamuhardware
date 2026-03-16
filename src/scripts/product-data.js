@@ -1,5 +1,5 @@
 /**
- * Official NJAWAMU Hardware Catalog - 100% Verified
+ * Official NJAWAMU Hardware Catalog - Synchronized with Images
  * Total Count: 2346
  */
 
@@ -12,9 +12,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BARBED WIRE 610MTPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BARBED WIRE 610MTPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -27,9 +27,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BARBED WIRE 480 MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BARBED WIRE 480 MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -42,9 +42,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BARBED WIRE 210MTPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BARBED WIRE 210MTPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -57,9 +57,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLACK 2.5 CABLE ROLPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, BLACK 2.5 CABLE ROLPC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -117,9 +117,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLACK SHEET 8*4 G.1PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/black-sheet-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/black-sheet-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, BLACK SHEET 8*4 G.1PC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -132,9 +132,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium FLASHING HANDLE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/flashing-handle-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/flashing-handle-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, FLASHING HANDLE, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -162,9 +162,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS DARK available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS DARK, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -177,9 +177,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS WHITEPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS WHITEPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -192,9 +192,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS AMERIPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS AMERIPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -207,9 +207,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS PLAIN available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS PLAIN, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -222,9 +222,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS COIMBPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS COIMBPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -522,9 +522,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ALL MDF BOARDS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, ALL MDF BOARDS, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -567,9 +567,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium GYPSUM BOARD available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/gypsum-board-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/gypsum-board-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, GYPSUM BOARD, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -582,9 +582,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING BOLTS \u00bc*2PCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/roofing-bolts-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/roofing-bolts-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING BOLTS \u00bc*2PCS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -597,9 +597,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING BOLTS \u00bc*3PCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/roofing-bolts-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/roofing-bolts-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING BOLTS \u00bc*3PCS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -612,9 +612,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING BOLTS \u00bc*4PCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/roofing-bolts-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/roofing-bolts-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING BOLTS \u00bc*4PCS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -627,9 +627,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING BOLTS \u00bc*1PCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/roofing-bolts-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/roofing-bolts-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING BOLTS \u00bc*1PCS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -642,9 +642,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium IMPORTED PAD BOLTPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, IMPORTED PAD BOLTPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -672,9 +672,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium JUA KALI PAD BOLT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, JUA KALI PAD BOLT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -687,9 +687,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MAGNETIC BITS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/magnetic-bits-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/magnetic-bits-v1.png"
     ],
     "keywords": "NJAWAMU, GENERAL HARDWARE, MAGNETIC BITS, NJAWAMU, GENERAL HARDWARE",
     "subcategory": "GENERAL HARDWARE"
@@ -717,9 +717,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SCREW BOLTS 65MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/screw-bolts-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/screw-bolts-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SCREW BOLTS 65MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -747,9 +747,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHROME BRACKETS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chrome-brackets-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chrome-brackets-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHROME BRACKETS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -762,9 +762,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TOWEL BRACKETS 1\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/towel-brackets-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/towel-brackets-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TOWEL BRACKETS 1\"PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -777,9 +777,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TOWEL BRACKETS \u00be\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/towel-brackets-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/towel-brackets-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TOWEL BRACKETS \u00be\"PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -807,9 +807,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHAIN LINKS 8FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chain-link.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chain-link.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHAIN LINKS 8FT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -822,9 +822,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHAIN LINKS 7FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chain-link.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chain-link.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHAIN LINKS 7FT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -837,9 +837,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHAIN LINKS 6FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chain-link.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chain-link.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHAIN LINKS 6FT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -852,9 +852,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHAIN LINKS 5FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chain-link.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chain-link.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHAIN LINKS 5FT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -867,9 +867,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHAIN LINKS 4FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chain-link.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chain-link.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHAIN LINKS 4FT, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -882,9 +882,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHICKEN WIRE \u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chicken-wire.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chicken-wire.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHICKEN WIRE \u00be, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -897,9 +897,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHICKEN WIRE \u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chicken-wire.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chicken-wire.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHICKEN WIRE \u00bd, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -1587,9 +1587,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TOWER/CABLE CLIPSPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, TOWER/CABLE CLIPSPC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -1707,9 +1707,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CABLE TIES/WRAPS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, CABLE TIES/WRAPS, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -1782,9 +1782,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium 1.5 CABLE BLACK available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, 1.5 CABLE BLACK, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -2112,9 +2112,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET 3\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET 3\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2127,9 +2127,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET 2\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET 2\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2142,9 +2142,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET 1\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET 1\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2157,9 +2157,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET 1\u00bc available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET 1\u00bc, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2172,9 +2172,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET 1\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET 1\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2187,9 +2187,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET \u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET \u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2202,9 +2202,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I SOCKET \u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I SOCKET \u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -2757,9 +2757,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I HEX SOCKET \u00be*\u00bdPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I HEX SOCKET \u00be*\u00bdPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4557,9 +4557,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 1\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 1\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4572,9 +4572,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 1\u00bd\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 1\u00bd\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4587,9 +4587,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 2\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 2\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4602,9 +4602,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 2\u00bd\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 2\u00bd\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4617,9 +4617,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 3\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 3\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4632,9 +4632,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS 4\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS 4\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -4647,9 +4647,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 5\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 5\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4662,9 +4662,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 4\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 4\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4677,9 +4677,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 3\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 3\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4692,9 +4692,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 2\u00bd\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 2\u00bd\"PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4707,9 +4707,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 2\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 2\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4722,9 +4722,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 2\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 2\u00bd, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4737,9 +4737,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 4\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 4\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4752,9 +4752,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 3\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 3\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4767,9 +4767,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 2\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 2\u00bd, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4782,9 +4782,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 2\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 2\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4797,9 +4797,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 1\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 1\u00bd, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4812,9 +4812,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 1\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 1\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4827,9 +4827,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 2\u00bd\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 2\u00bd\"PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4842,9 +4842,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 1\u00bd\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 1\u00bd\"PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4857,9 +4857,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 1\"\u00bdPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 1\"\u00bdPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -4872,9 +4872,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium POLISHED NAILS 2\"25PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, POLISHED NAILS 2\"25PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5112,9 +5112,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\u00bd\" \u00bcPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\u00bd\" \u00bcPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5127,9 +5127,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\" \u00bcKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\" \u00bcKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5142,9 +5142,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\u00bd\" \u00bdPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\u00bd\" \u00bdPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5157,9 +5157,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\" \u00bdKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\" \u00bdKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5172,9 +5172,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\u00bd\" \u00bePC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\u00bd\" \u00bePC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5187,9 +5187,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\" \u00beKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\" \u00beKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5202,9 +5202,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\u00bd\" 1KPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\u00bd\" 1KPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5217,9 +5217,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\" 1KGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\" 1KGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5232,9 +5232,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\u00bd\" 25PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\u00bd\" 25PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5247,9 +5247,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1\" 25KPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1\" 25KPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5262,9 +5262,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium U-NAILS \u00bc KG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, U-NAILS \u00bc KG, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5277,9 +5277,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium U-NAILS \u00bdKG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, U-NAILS \u00bdKG, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5292,9 +5292,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium U-NAILS \u00beKG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, U-NAILS \u00beKG, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5307,9 +5307,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium U-NAILS 1KG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, U-NAILS 1KG, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5322,9 +5322,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium U-NAILS 25KG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, U-NAILS 25KG, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5337,9 +5337,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS \u00bcKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS \u00bcKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5352,9 +5352,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS \u00bdKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS \u00bdKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5367,9 +5367,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS \u00beKGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS \u00beKGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5382,9 +5382,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS 1KGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS 1KGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5397,9 +5397,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS 50KGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS 50KGPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5412,9 +5412,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ROOFING NAILS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ROOFING NAILS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5427,9 +5427,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MINDY PADLOCKS 80PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, MINDY PADLOCKS 80PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5442,9 +5442,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MINDY PADLOCKS 70PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, MINDY PADLOCKS 70PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5457,9 +5457,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MINDY PADLOCKS 60PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, MINDY PADLOCKS 60PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5472,9 +5472,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MINDY PADLOCKS 50PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, MINDY PADLOCKS 50PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5487,9 +5487,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MINDY PADLOCKS 40PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, MINDY PADLOCKS 40PC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5502,9 +5502,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CISA PADLOCK 70MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CISA PADLOCK 70MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5517,9 +5517,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CISA PADLOCK 60MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CISA PADLOCK 60MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5532,9 +5532,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CISA PADLOCK 50MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CISA PADLOCK 50MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5547,9 +5547,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CISA PADLOCK 40MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CISA PADLOCK 40MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5562,9 +5562,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STELAR PADLOCK 70MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, STELAR PADLOCK 70MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5577,9 +5577,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STELAR PADLOCK 60MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, STELAR PADLOCK 60MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5592,9 +5592,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STELAR PADLOCK 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, STELAR PADLOCK 50MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5607,9 +5607,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STELAR PADLOCK 40MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, STELAR PADLOCK 40MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5622,9 +5622,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium AUDDY PADLOCK 70MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, AUDDY PADLOCK 70MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5637,9 +5637,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium AUDDY PADLOCK 60MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, AUDDY PADLOCK 60MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5652,9 +5652,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium AUDDY PADLOCK 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, AUDDY PADLOCK 50MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5667,9 +5667,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium AUDDY PADLOCK 40MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, AUDDY PADLOCK 40MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5682,9 +5682,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SMITHMO PADLOCKSPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SMITHMO PADLOCKSPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5727,9 +5727,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium YONGLI PADLOCK 70PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, YONGLI PADLOCK 70PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -5742,9 +5742,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium YONGLI PADLOCK 60PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, YONGLI PADLOCK 60PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -5757,9 +5757,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium YONGLI PADLOCK 50PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, YONGLI PADLOCK 50PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -5772,9 +5772,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium YONGLI PADLOCK 38PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, YONGLI PADLOCK 38PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -5787,9 +5787,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium YONGLI PADLOCK 32PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, YONGLI PADLOCK 32PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -5847,9 +5847,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ALARM PADLOCK 70MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/alarm-padlock-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/alarm-padlock-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ALARM PADLOCK 70MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5862,9 +5862,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ALARM PADLOCK 60MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/alarm-padlock-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/alarm-padlock-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ALARM PADLOCK 60MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5877,9 +5877,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ALARM PADLOCK 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/alarm-padlock-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/alarm-padlock-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ALARM PADLOCK 50MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5892,9 +5892,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ALARM PADLOCK 40MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/alarm-padlock-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/alarm-padlock-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ALARM PADLOCK 40MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5907,9 +5907,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BUCKLER PADLOCK available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/buckler-padlock-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/buckler-padlock-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BUCKLER PADLOCK, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5922,9 +5922,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HOSI PADLOCK 60MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, HOSI PADLOCK 60MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -5937,9 +5937,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HOSI PADLOCK 50MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, HOSI PADLOCK 50MMPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -6702,9 +6702,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE, KANSUN, PIPES",
     "subcategory": "PIPES"
@@ -6717,9 +6717,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE ROLL 20MMPCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE ROLL 20MMPCS, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -6732,9 +6732,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE ROLL 25MMPCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE ROLL 25MMPCS, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7347,9 +7347,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 63PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 63PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7362,9 +7362,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 50PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 50PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7377,9 +7377,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 40PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 40PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7392,9 +7392,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 32PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 32PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7407,9 +7407,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 25PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 25PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7422,9 +7422,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PLAIN SOCKET 20PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PLAIN SOCKET 20PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7437,9 +7437,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 63*1\u00bdPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 63*1\u00bdPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7452,9 +7452,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 63*1\u00bcPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 63*1\u00bcPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7467,9 +7467,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 63*1\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 63*1\"PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7482,9 +7482,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 63*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 63*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7497,9 +7497,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 63*\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 63*\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7512,9 +7512,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 50*1\u00bcPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 50*1\u00bcPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7527,9 +7527,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 50*1\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 50*1\"PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7542,9 +7542,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 50*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 50*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7557,9 +7557,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 50*\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 50*\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7572,9 +7572,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 40*1\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 40*1\"PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7587,9 +7587,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 40*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 40*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7602,9 +7602,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 40*\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 40*\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7617,9 +7617,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 32*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 32*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7632,9 +7632,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 32*\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 32*\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7647,9 +7647,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 25*\u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 25*\u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -7752,9 +7752,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE ADAPTER available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-male-adapter.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-male-adapter.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE ADAPTER, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8457,9 +8457,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE SOCKET \u00bePC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE SOCKET \u00bePC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8472,9 +8472,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR FEMALE SOCKETPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR FEMALE SOCKETPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8487,9 +8487,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE SOCKET \u00bdPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE SOCKET \u00bdPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8517,9 +8517,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE SOCKET 1\"*3PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE SOCKET 1\"*3PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8562,9 +8562,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR M.SOCKET 1*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR M.SOCKET 1*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8577,9 +8577,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR F.SOCKET 1*\u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR F.SOCKET 1*\u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8592,9 +8592,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HDP SOCKET 32MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, HDP SOCKET 32MM, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -8802,9 +8802,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PTG PIPE SOCKET available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PTG PIPE SOCKET, PTG, PIPES",
     "subcategory": "PIPES"
@@ -9147,9 +9147,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PVC TANK CONNECTOPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/tank.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/tank.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PVC TANK CONNECTOPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -9537,9 +9537,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SELF DRILLING SCREWPCS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SELF DRILLING SCREWPCS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -9552,9 +9552,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SELF DRILLING SCREWPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SELF DRILLING SCREWPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -10362,9 +10362,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium EXTENSION SOCKET available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, EXTENSION SOCKET, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -10512,9 +10512,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium URINAL BOWL available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/urinal-bowl-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/urinal-bowl-v1.png"
     ],
     "keywords": "NJAWAMU, GENERAL HARDWARE, URINAL BOWL, NJAWAMU, GENERAL HARDWARE",
     "subcategory": "GENERAL HARDWARE"
@@ -11922,9 +11922,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium WINDOW FASTENERSPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/fasteners.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/fasteners.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, WINDOW FASTENERSPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -12012,9 +12012,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS CHERRPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS CHERRPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -12027,9 +12027,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS SEPELEPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS SEPELEPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -12042,9 +12042,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS MEL OPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS MEL OPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -12132,9 +12132,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE SOCKET 2\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE SOCKET 2\"PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -12147,9 +12147,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR MALE SOCKET 1\"*2PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR MALE SOCKET 1\"*2PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -12162,9 +12162,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR FEMALE SOCKET 1\"PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR FEMALE SOCKET 1\"PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -13452,9 +13452,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS GOLDPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS GOLDPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13467,9 +13467,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS CHROMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS CHROMPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13482,9 +13482,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS SILVERPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS SILVERPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13497,9 +13497,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS BLACKPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS BLACKPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13512,9 +13512,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS GREENPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS GREENPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13527,9 +13527,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS YELLOPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS YELLOPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13542,9 +13542,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS WHITEPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS WHITEPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13557,9 +13557,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS ORANGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS ORANGPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13572,9 +13572,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS BLUE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS BLUE, NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13587,9 +13587,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS FLUROPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS FLUROPC(S), NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13602,9 +13602,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS RED available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS RED, NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13617,9 +13617,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SPRAY PAINTS GREY available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/paints.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/paints.jpg"
     ],
     "keywords": "NJAWAMU, PAINTS, SPRAY PAINTS GREY, NJAWAMU, PAINTS",
     "subcategory": "PAINTS"
@@ -13797,9 +13797,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE CUTTER FINPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE CUTTER FINPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -13842,9 +13842,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SIMBA CEMENT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, SIMBA CEMENT, SIMBA, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -13857,9 +13857,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium WHITE CEMENT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, WHITE CEMENT, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -14352,9 +14352,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BTS 12MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BTS 12MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14367,9 +14367,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSSDRILL BTS 10MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSSDRILL BTS 10MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14382,9 +14382,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BTS 8.5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BTS 8.5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14397,9 +14397,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BTS 8MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BTS 8MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14412,9 +14412,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 7.5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 7.5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14427,9 +14427,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 7MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 7MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14442,9 +14442,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HESS DRILL BITS 6.5MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HESS DRILL BITS 6.5MPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14457,9 +14457,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HESS DRILL BITS 6MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HESS DRILL BITS 6MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14472,9 +14472,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HESS DRILL BITS 5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HESS DRILL BITS 5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14487,9 +14487,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 4.5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 4.5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14502,9 +14502,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 4MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 4MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14517,9 +14517,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 3.5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 3.5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14532,9 +14532,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 3MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 3MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14547,9 +14547,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 2MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 2MM, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14562,9 +14562,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HSS DRILL BITS 2.5MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HSS DRILL BITS 2.5MMPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -14577,9 +14577,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium 7.5MTS FEET (TAPE MEPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, 7.5MTS FEET (TAPE MEPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -14592,9 +14592,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium 5MTS FEET (TAPE MEAPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, 5MTS FEET (TAPE MEAPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -14607,9 +14607,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium 3MTS FEET (TAPE MEAPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, 3MTS FEET (TAPE MEAPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -14622,9 +14622,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium WOOD DRILL BIT 12MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, WOOD DRILL BIT 12MPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -15102,9 +15102,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE \u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE \u00bd, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -15117,9 +15117,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE \u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE \u00be, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -15132,9 +15132,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE 1\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE 1\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -15147,9 +15147,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE 2\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE 2\", NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -15237,9 +15237,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL CORNER TAPE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL CORNER TAPE, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -15327,9 +15327,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HAND DRILL available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, HAND DRILL, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -15507,9 +15507,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium FIBRE TAPE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, FIBRE TAPE, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -16002,9 +16002,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PVC WASTE SOCKET available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PVC WASTE SOCKET, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -16197,9 +16197,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASON HAMMER 2LPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, MASON HAMMER 2LPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -16212,9 +16212,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASON HAMMER 2.5PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, MASON HAMMER 2.5PC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -16227,9 +16227,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASON HAMMER 3LPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, MASON HAMMER 3LPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -16242,9 +16242,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium THREAD SEA TAPES available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, THREAD SEA TAPES, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -16257,9 +16257,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium THREAD SEAL TAPES available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, THREAD SEAL TAPES, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -16317,9 +16317,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TACK NAILS 1\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TACK NAILS 1\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -16332,9 +16332,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TACK NAILS \u00be available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TACK NAILS \u00be, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -16347,9 +16347,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TACK NAILS 5/8 available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TACK NAILS 5/8, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -16362,9 +16362,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TACK NAILS \u00bd available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, TACK NAILS \u00bd, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -16482,9 +16482,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MAGNETIC SOCKET available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, MAGNETIC SOCKET, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -16662,9 +16662,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CLAW HAMMER GREPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, CLAW HAMMER GREPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -16677,9 +16677,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CLAW HAMMER 29MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, CLAW HAMMER 29MPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -16692,9 +16692,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ORDINARY NAILS 6\" available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ORDINARY NAILS 6\", NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -16917,9 +16917,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DRILL CHUCK available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, DRILL CHUCK, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -17232,9 +17232,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ENERGY SAVER BULBPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/bulb.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/bulb.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, ENERGY SAVER BULBPC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -17292,9 +17292,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEILING NAILS 1 1/2 available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CEILING NAILS 1 1/2, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -17472,9 +17472,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MDF BOARDS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/mdf-boards-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/mdf-boards-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, MDF BOARDS, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -17727,9 +17727,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CORNER TAPE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, CORNER TAPE, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -17802,9 +17802,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE ROLL 1\" 32MPPR available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE ROLL 1\" 32MPPR, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -17817,9 +17817,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE1\" 32MM, DPPR available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE1\" 32MM, DPPR, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -17832,9 +17832,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE 1 \u00bc\" 40MMPPR available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE 1 \u00bc\" 40MMPPR, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18102,9 +18102,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLACK SHEET 1/2 G16PC available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/black-sheet-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/black-sheet-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, BLACK SHEET 1/2 G16PC, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -18267,9 +18267,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TWIN/TWE CABLE 2.5PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, TWIN/TWE CABLE 2.5PC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -18282,9 +18282,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TWIN/TWE CABLE 1.5PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, TWIN/TWE CABLE 1.5PC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -18297,9 +18297,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SINGLE CABLE 2.5*90PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, SINGLE CABLE 2.5*90PC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -18312,9 +18312,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SINGLE CABLE 1.5*90PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, SINGLE CABLE 1.5*90PC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -18327,9 +18327,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium WHITE CEMENT BAGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, WHITE CEMENT BAGPC(S), NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -18492,9 +18492,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEMENT BAG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, CEMENT BAG, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -18507,9 +18507,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEMENT 1KG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, CEMENT 1KG, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -18537,9 +18537,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL TAPE SMALL available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL TAPE SMALL, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18672,9 +18672,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STEEL NAILS BOX available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/nails.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/nails.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, STEEL NAILS BOX, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18732,9 +18732,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE ROLL FULL available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE ROLL FULL, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18747,9 +18747,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE ROLL 1\" FULPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE ROLL 1\" FULPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18852,9 +18852,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE 1 \u00bc\" 40MMPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE 1 \u00bc\" 40MMPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -18912,9 +18912,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHICKEN WIRE 3/4 ROPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chicken-wire.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chicken-wire.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHICKEN WIRE 3/4 ROPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -18927,9 +18927,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHICKEN WIRE 1/2 ROPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chicken-wire.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chicken-wire.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHICKEN WIRE 1/2 ROPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -18972,9 +18972,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHICKEN WIRE 7FT (TPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/chicken-wire.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/chicken-wire.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, CHICKEN WIRE 7FT (TPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -19107,9 +19107,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BARBED WIRE 480M available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BARBED WIRE 480M, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -19122,9 +19122,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BARBED WIRE 610M available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BARBED WIRE 610M, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -19137,9 +19137,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CABLE CLIPS 9MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, CABLE CLIPS 9MM, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -19167,9 +19167,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium ANBOUND PADLOCKPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, ANBOUND PADLOCKPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -19272,9 +19272,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium 5MTS KNICKER (TAPE available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, 5MTS KNICKER (TAPE, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -19422,9 +19422,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR R/SOCKET 25X1 available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR R/SOCKET 25X1, NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -19452,9 +19452,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLUE CEMENT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, BLUE CEMENT, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -19602,9 +19602,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PLYWOOD available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/plywood-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/plywood-v1.png"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, PLYWOOD, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -19917,9 +19917,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE 50MM DANPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE 50MM DANPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -19947,9 +19947,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium A.MALE SOCKET 40MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, A.MALE SOCKET 40MPC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -19962,9 +19962,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium A.MALE SOCKET 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, A.MALE SOCKET 50MPC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -19977,9 +19977,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium HDPE TANK CONNECPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/tank.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/tank.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, HDPE TANK CONNECPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -19992,9 +19992,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium LED BULB 30W available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/led-bulb-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/led-bulb-v1.png"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, LED BULB 30W, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -20097,9 +20097,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium FLASHING TAPE ADHEPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, FLASHING TAPE ADHEPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -20127,9 +20127,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CABLE TIES PKT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, CABLE TIES PKT, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -20172,9 +20172,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CEMENT 25KG available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/building-materials/cement.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/building-materials/cement.jpg"
     ],
     "keywords": "NJAWAMU, BUILDING MATERIALS, CEMENT 25KG, NJAWAMU, BUILDING MATERIALS",
     "subcategory": "BUILDING MATERIALS"
@@ -20352,9 +20352,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SLEDGE HAMMER available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, SLEDGE HAMMER, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -20367,9 +20367,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium TAPE MEASURE 7.5MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, TAPE MEASURE 7.5MPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -20472,9 +20472,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PPR PIPE 1'' ROLL PERPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/plumbing/ppr-pipe.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/plumbing/ppr-pipe.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PPR PIPE 1'' ROLL PERPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -20637,9 +20637,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SLEDGE HAMMER 10PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, SLEDGE HAMMER 10PC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -20652,9 +20652,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SLEDGE HAMMER 12PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, SLEDGE HAMMER 12PC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -20667,9 +20667,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SLEDGE HAMMER 8LPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/hammer.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/hammer.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, SLEDGE HAMMER 8LPC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -21012,9 +21012,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DRILL BIT 1/8 available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, DRILL BIT 1/8, NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -21297,9 +21297,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE 1[BIGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE 1[BIGPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -21312,9 +21312,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium MASKING TAPE 2[BIGPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/tape.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/tape.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, MASKING TAPE 2[BIGPC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -21462,9 +21462,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SAWA PADLOCK 40MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SAWA PADLOCK 40MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -21477,9 +21477,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SAWA PADLOCK 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SAWA PADLOCK 50MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -21492,9 +21492,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium SAWA PADLOCK 60MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, SAWA PADLOCK 60MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -21537,9 +21537,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BOMA BARBED WIREPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/barbed-wire-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/barbed-wire-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BOMA BARBED WIREPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -21672,9 +21672,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium LED BULB 2FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/led-bulb-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/led-bulb-v1.png"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, LED BULB 2FT, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -21687,9 +21687,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium LED BULB 3FT available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/led-bulb-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/led-bulb-v1.png"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, LED BULB 3FT, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -21792,9 +21792,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BULB HOLDER available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/bulb.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/bulb.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, BULB HOLDER, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -21867,9 +21867,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLESS PADLOCK available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BLESS PADLOCK, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22227,9 +22227,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium CHROME SOCKET 1/2PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, CHROME SOCKET 1/2PC(S), NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -22257,9 +22257,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium RED CABLE 2.5 ROLL available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/cable.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/cable.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, RED CABLE 2.5 ROLL, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -22317,9 +22317,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DRILL KEY 10MM& 13PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, DRILL KEY 10MM& 13PC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -22332,9 +22332,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DRILL HEAD [CHUNK]PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/tools/drill.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/tools/drill.jpg"
     ],
     "keywords": "NJAWAMU, TOOLS, DRILL HEAD [CHUNK]PC(S), NJAWAMU, TOOLS",
     "subcategory": "TOOLS"
@@ -22497,9 +22497,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium STELAR PADLOCK 80MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, STELAR PADLOCK 80MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22767,9 +22767,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium F/ SOCKET 63MM available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, ELECTRICALS, F/ SOCKET 63MM, NJAWAMU, ELECTRICALS",
     "subcategory": "ELECTRICALS"
@@ -22872,9 +22872,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DAFOU PADLOCK 50MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, DAFOU PADLOCK 50MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22887,9 +22887,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium DAFOU PADLOCK 60MPC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/padlock.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/padlock.jpg"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, DAFOU PADLOCK 60MPC(S), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22932,9 +22932,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium RED PAD BOLT (H) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, RED PAD BOLT (H), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22947,9 +22947,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium RED PAD BOLT (L) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, RED PAD BOLT (L), NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22962,9 +22962,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLUE PAD BOLTS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BLUE PAD BOLTS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -22977,9 +22977,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium BLACK PAD BOLTS available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/pad-bolt-v1.png",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/pad-bolt-v1.png"
     ],
     "keywords": "NJAWAMU, HARDWARE & FASTENERS, BLACK PAD BOLTS, NJAWAMU, HARDWARE & FASTENERS",
     "subcategory": "HARDWARE & FASTENERS"
@@ -23052,9 +23052,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium G.I.R SOCKET 1.5*1.5PC(S) available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/electrical/socket.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/electrical/socket.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, G.I.R SOCKET 1.5*1.5PC(S), NJAWAMU, PIPES",
     "subcategory": "PIPES"
@@ -23142,9 +23142,9 @@ window.NJAWAMUProducts = [
     "price": "Contact for Price",
     "description": "Premium PLUMBING MATERIAPC available at NJAWAMU Hardware. Professional grade materials for construction, maintenance, and DIY projects.",
     "rating": 4.5,
-    "image": "assets/images/products/hardware/placeholder.png",
+    "image": "assets/images/products/hardware/plumbing.jpg",
     "images": [
-      "assets/images/products/hardware/placeholder.png"
+      "assets/images/products/hardware/plumbing.jpg"
     ],
     "keywords": "NJAWAMU, PIPES, PLUMBING MATERIAPC, NJAWAMU, PIPES",
     "subcategory": "PIPES"
