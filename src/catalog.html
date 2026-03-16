@@ -12,7 +12,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gracefulmotion.com/catalog.html">
+    <meta property="og:url" content="https://njawamuhardware.com/catalog.html">
     <meta property="og:title" content="Product Catalog | NJAWAMU Hardware">
     <meta property="og:description"
         content="Browse 4,000+ quality hardware products. Find the right materials for your project.">
@@ -20,7 +20,7 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://gracefulmotion.com/catalog.html">
+    <meta property="twitter:url" content="https://njawamuhardware.com/catalog.html">
     <meta property="twitter:title" content="Product Catalog | NJAWAMU Hardware">
     <meta property="twitter:description"
         content="Browse 4,000+ quality hardware products. Find the right materials for your project.">
@@ -126,19 +126,27 @@
                     <label class="filter-label">Category</label>
                     <select class="filter-select" id="filterCategory">
                         <option value="">All Categories</option>
-                        <option value="Paints">Paints</option>
-                        <option value="Electricals">Electricals</option>
-                        <option value="Plumbing">Plumbing</option>
-                        <option value="Hardware &amp; Fasteners">Hardware &amp; Fasteners</option>
-                        <option value="Iron Sheets">Iron Sheets</option>
-                        <option value="Building Materials">Building Materials</option>
+                        <option value="PAINTS">Paints</option>
+                        <option value="ELECTRICALS">Electricals</option>
+                        <option value="PIPES">Plumbing</option>
+                        <option value="HARDWARE & FASTENERS">Hardware & Fasteners</option>
+                        <option value="IRON SHEETS">Iron Sheets</option>
+                        <option value="BUILDING MATERIALS">Building Materials</option>
+                    </select>
+                </div>
+
+                <!-- 2. Subcategory -->
+                <div class="filter-group">
+                    <label class="filter-label">Subcategory</label>
+                    <select class="filter-select" id="filterSubcategory">
+                        <option value="">All Subcategories</option>
                     </select>
                 </div>
 
                 <!-- Removed unused filters per user instruction -->
 
-                <button class="btn btn-primary" id="findPartsBtn" style="width: 100%; margin-top: 15px;">
-                    <i class="fas fa-search"></i> Find Parts
+                <button class="btn btn-primary" id="findProductsBtn" style="width: 100%; margin-top: 15px;">
+                    REVEAL PRODUCTS
                 </button>
                 <button class="btn btn-outline" id="resetFiltersBtn"
                     style="width: 100%; margin-top: 10px; border: 1px solid #ddd;">
@@ -179,7 +187,7 @@
                 <div class="search-part-number">
                     <div class="search-container-v3">
                         <i class="fas fa-search search-icon-v3"></i>
-                        <input type="text" placeholder="Search for performance parts, numbers..."
+                        <input type="text" placeholder="Search for hardware products, SKUs..."
                             class="search-part-input">
                         <div class="search-divider-v3"></div>
                         <button class="search-btn-v3">
@@ -228,8 +236,8 @@
                 <!-- Dynamically populated by catalog-filter.js -->
                 <div class="catalog-loading" style="grid-column: 1/-1; text-align: center; padding: 100px 0;">
                     <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--accent-primary);"></i>
-                    <p style="margin-top: 15px; font-weight: 600; color: var(--text-secondary);">Loading premium
-                        parts...</p>
+                    <p style="margin-top: 15px; font-weight: 600; color: var(--text-secondary);">Loading quality
+                        products...</p>
                 </div>
             </div>
         </main>
@@ -240,7 +248,7 @@
         <div class="companies-container">
             <div class="companies-header">
                 <h2>TRUSTED BY THE BEST</h2>
-                <p>WE SOURCE PARTS FOR ALL MAJOR BRANDS</p>
+                <p>WE SOURCE PRODUCTS FROM ALL MAJOR BRANDS</p>
             </div>
             <div class="companies-viewport">
                 <!-- Hardware Brand 1 -->
@@ -295,7 +303,7 @@
                     <!-- Brand -->
                     <div class="footer-col footer-brand">
                         <h2>
-                            <i class="fas fa-car-side" style="color: var(--accent-color);"></i>
+                            <i class="fas fa-screwdriver-wrench" style="color: var(--accent-color);"></i>
                             NJAWAMU Hardware
                         </h2>
                         <p class="footer-desc">
@@ -305,9 +313,6 @@
                         <div class="footer-socials">
                             <a href="https://www.facebook.com/profile.php?id=61564963514908" class="social-link"
                                 aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/gracefulmotionauto/?utm_source=ig_web_button_share_sheet"
-                                class="social-link" aria-label="Instagram" target="_blank"><i
-                                    class="fab fa-instagram"></i></a>
                             <a href="https://wa.me/254726822382" class="social-link" aria-label="WhatsApp"
                                 target="_blank"><i class="fab fa-whatsapp"></i></a>
                         </div>
@@ -405,7 +410,6 @@
 
     <!-- JavaScript -->
     <script src="scripts/business-config.js"></script>
-    <script src="scripts/product-data.js"></script>
     <script src="scripts/navigation.js"></script>
     <script src="scripts/cart.js"></script>
     <script src="scripts/categories-menu.js"></script>

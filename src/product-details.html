@@ -10,14 +10,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="product">
-    <meta property="og:url" content="https://gracefulmotion.com/product-details.html">
+    <meta property="og:url" content="https://njawamuhardware.com/product-details.html">
     <meta property="og:title" content="Product Details | NJAWAMU Hardware">
     <meta property="og:description" content="View quality hardware product details and order via WhatsApp.">
     <meta property="og:image" content="assets/images/products/hardware/paints.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://gracefulmotion.com/product-details.html">
+    <meta property="twitter:url" content="https://njawamuhardware.com/product-details.html">
     <meta property="twitter:title" content="Product Details | NJAWAMU Hardware">
     <meta property="twitter:description" content="View quality hardware product details and order via WhatsApp.">
     <meta property="twitter:image" content="assets/images/products/hardware/paints.jpg">
@@ -132,7 +132,7 @@
         <div class="container">
             <div class="pd-related-header">
                 <p class="section-tag">// YOU MIGHT ALSO LIKE</p>
-                <h2 class="pd-related-title">RELATED PARTS</h2>
+                <h2 class="pd-related-title">RELATED PRODUCTS</h2>
             </div>
             <div class="product-grid" id="relevantGrid"></div>
         </div>
@@ -155,7 +155,7 @@
         <div class="companies-container">
             <div class="companies-header">
                 <h2>TRUSTED BY THE BEST</h2>
-                <p>WE SOURCE PARTS FOR ALL MAJOR BRANDS</p>
+                <p>WE SOURCE PRODUCTS FROM ALL MAJOR BRANDS</p>
             </div>
             <div class="companies-viewport">
                 <!-- Hardware Brands -->
@@ -237,13 +237,12 @@
 
     <!-- ===== SCRIPTS ===== -->
     <script src="scripts/business-config.js"></script>
-    <script src="scripts/product-data.js"></script>
     <script src="scripts/navigation.js"></script>
     <script src="scripts/categories-menu.js"></script>
     <script src="scripts/cart.js?v=4.3"></script>
     <script src="scripts/search-autocomplete.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', async () => {
             const urlParams = new URLSearchParams(window.location.search);
             const productId = urlParams.get('id');
             const pdContent = document.getElementById('pdContent');
@@ -251,25 +250,38 @@
             const pdRelated = document.getElementById('pdRelated');
             const pdStickyBar = document.getElementById('pdStickyBar');
 
+            let allProducts = [];
+
+            async function loadProducts() {
+                try {
+                    const response = await fetch('assets/data/products.json');
+                    allProducts = await response.json();
+                } catch (error) {
+                    console.error('Error loading products:', error);
+                }
+            }
+
             function showError(msg) {
                 pdLoading.style.display = 'none';
                 pdContent.style.display = 'block';
                 pdContent.innerHTML = `
                 <div class="pd-error">
                     <div class="pd-error-icon">🔧</div>
-                    <h2>Part Not Found</h2>
+                    <h2>Product Not Found</h2>
                     <p>${msg}</p>
                     <a href="catalog.html" class="pd-back-btn">← Back to Catalog</a>
                 </div>
             `;
             }
 
-            if (!productId || !window.RenovyteProducts) {
-                showError('The part you\'re looking for may have been moved. Browse our full catalog below.');
+            await loadProducts();
+
+            if (!productId || allProducts.length === 0) {
+                showError('The product you\'re looking for may have been moved. Browse our full catalog below.');
                 return;
             }
 
-            const product = window.RenovyteProducts.find(p => p.id === productId);
+            const product = allProducts.find(p => p.id === productId);
             if (!product) {
                 showError('This product ID was not found in our catalogue.');
                 return;
@@ -277,8 +289,8 @@
 
             // Update page title & breadcrumb
             document.getElementById('pageTitle').textContent = `${product.name} - NJAWAMU Hardware`;
-            document.getElementById('breadcrumbCategory').textContent = product.category || 'Parts';
-            document.getElementById('breadcrumbCategoryLink').href = `catalog.html?category=${encodeURIComponent(product.category || 'Parts')}`;
+            document.getElementById('breadcrumbCategory').textContent = product.category || 'Products';
+            document.getElementById('breadcrumbCategoryLink').href = `catalog.html?category=${encodeURIComponent(product.category || 'Products')}`;
             document.getElementById('breadcrumbProduct').textContent = product.name;
 
             // Star HTML
@@ -341,7 +353,7 @@
             <div class="pd-info-panel">
                 <!-- Breadcrumb-like sub-label -->
                 <div class="pd-category-label">
-                    <a href="catalog.html?category=${encodeURIComponent(product.category || '')}">${product.category || 'Auto Parts'}</a>
+                    <a href="catalog.html?category=${encodeURIComponent(product.category || '')}">${product.category || 'Hardware'}</a>
                     ${product.subcategory ? `<span> / ${product.subcategory}</span>` : ''}
                 </div>
 
@@ -360,7 +372,7 @@
                 </div>
 
                 <!-- Description -->
-                <p class="pd-description">${product.description || 'Premium quality part. Direct replacement for OEM specifications.'}</p>
+                <p class="pd-description">${product.description || 'Premium quality product for your hardware and construction needs.'}</p>
 
                 <!-- Specs -->
                 <div class="pd-specs-box">
@@ -377,7 +389,7 @@
                 <div class="pd-trust-row">
                     <div class="pd-trust-item">
                         <i class="fas fa-medal"></i>
-                        <span>Genuine Part</span>
+                        <span>Genuine Product</span>
                     </div>
                     <div class="pd-trust-item">
                         <i class="fas fa-shield-halved"></i>
@@ -485,7 +497,7 @@
                 const qty = document.getElementById('buyQty')?.value || 1;
                 const message =
                     `Hello NJAWAMU Hardware! 👋\n\n` +
-                    `I would like to order the following part:\n\n` +
+                    `I would like to order the following product:\n\n` +
                     `🔧 *Product:* ${product.name}\n` +
                     `📦 *Category:* ${product.category}\n` +
                     `💰 *Price:* ${product.price}\n` +
@@ -506,7 +518,7 @@
             });
 
             // Related products
-            const related = window.RenovyteProducts
+            const related = allProducts
                 .filter(p => p.id !== product.id && p.category === product.category)
                 .slice(0, 4);
 

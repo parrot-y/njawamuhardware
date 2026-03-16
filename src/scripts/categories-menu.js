@@ -19,7 +19,7 @@ class CategorySidebar {
                 items: ['House Wiring Cables', 'Switches & Sockets', 'Circuit Breakers', 'Lighting Fixtures', 'LED Bulbs', 'Conduits', 'Solar Panels']
             },
             plumbing: {
-                title: 'Plumbing', icon: 'fa-faucet', color: '#e74c3c',
+                title: 'Pipes & Fittings', icon: 'fa-faucet', color: '#e74c3c',
                 items: ['PPR Pipes & Fittings', 'PVC Pipes', 'Galvanized Fittings', 'Gate Valves', 'Water Tanks', 'Taps & Mixers', 'Sanitary Ware']
             },
             hardware_fasteners: {
@@ -33,6 +33,10 @@ class CategorySidebar {
             building_materials: {
                 title: 'Building Materials', icon: 'fa-trowel-bricks', color: '#9b59b6',
                 items: ['Cement', 'Steel Bars', 'Binding Wire', 'Waterproofing', 'Tile Adhesive', 'Grout', 'Timber Accessories']
+            },
+            tools: {
+                title: 'Professional Tools', icon: 'fa-tools', color: '#34495e',
+                items: ['Power Drills', 'Angle Grinders', 'Hand Tools', 'Measuring Tapes', 'Safety Gear', 'Tool Boxes']
             }
         };
 
@@ -61,7 +65,7 @@ class CategorySidebar {
         if (!document.querySelector('.fab-whatsapp')) {
             const fab = document.createElement('a');
             fab.className = 'fab-whatsapp';
-            fab.href = 'https://wa.me/254723699157';
+            fab.href = window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382';
             fab.target = '_blank';
             fab.rel = 'noopener noreferrer';
             fab.setAttribute('aria-label', 'Chat on WhatsApp');
@@ -111,7 +115,7 @@ class CategorySidebar {
 
         <div class="csb-search-wrap">
             <i class="fas fa-search csb-search-icon"></i>
-            <input type="text" class="csb-search-input" placeholder="Search parts, accessories…" autocomplete="off">
+            <input type="text" class="csb-search-input" placeholder="Search products, materials…" autocomplete="off">
         </div>
 
         <nav class="csb-body">
@@ -146,10 +150,10 @@ class CategorySidebar {
         </nav>
 
         <div class="csb-footer">
-            <a href="tel:+254723699157" class="csb-footer-link">
+            <a href="${window.BusinessConfig ? window.BusinessConfig.telLink() : 'tel:+254726822382'}" class="csb-footer-link">
                 <i class="fas fa-phone"></i> Call Us
             </a>
-            <a href="https://wa.me/254723699157" class="csb-footer-link csb-whatsapp">
+            <a href="${window.BusinessConfig ? window.BusinessConfig.whatsappLink() : 'https://wa.me/254726822382'}" class="csb-footer-link csb-whatsapp">
                 <i class="fab fa-whatsapp"></i> WhatsApp
             </a>
         </div>`;
